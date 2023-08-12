@@ -1,0 +1,272 @@
+
+achievements.png
+size: 2048, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+0
+  rotate: false
+  xy: 1, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+allbackgrounds1
+  rotate: false
+  xy: 1, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+allbackgrounds2
+  rotate: false
+  xy: 203, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+allcards1
+  rotate: false
+  xy: 1, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+allcards2
+  rotate: false
+  xy: 203, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+avatar1
+  rotate: false
+  xy: 405, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+avatar2
+  rotate: false
+  xy: 1, 203
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+dashcall1
+  rotate: false
+  xy: 203, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+dashcall2
+  rotate: false
+  xy: 405, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+dashcall3
+  rotate: false
+  xy: 607, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eightcall1
+  rotate: false
+  xy: 1, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eightcall2
+  rotate: false
+  xy: 203, 203
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+eightcall3
+  rotate: false
+  xy: 405, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+estcalc
+  rotate: false
+  xy: 607, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+games1
+  rotate: false
+  xy: 809, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+games2
+  rotate: false
+  xy: 203, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+games3
+  rotate: false
+  xy: 405, 203
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lvl10
+  rotate: false
+  xy: 607, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lvl20
+  rotate: false
+  xy: 809, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lvl30
+  rotate: false
+  xy: 1011, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lvl40
+  rotate: false
+  xy: 405, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+lvl50
+  rotate: false
+  xy: 607, 203
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+madewithtwo
+  rotate: false
+  xy: 809, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+morethan300
+  rotate: false
+  xy: 1011, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+onlywinner1
+  rotate: false
+  xy: 1213, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+onlywinner2
+  rotate: false
+  xy: 607, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+onlywinner3
+  rotate: false
+  xy: 809, 203
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+perfectgame
+  rotate: false
+  xy: 1011, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+positiveratio
+  rotate: false
+  xy: 1213, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+risk1
+  rotate: false
+  xy: 1415, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+risk2
+  rotate: false
+  xy: 809, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+risk3
+  rotate: false
+  xy: 1011, 203
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+theking1
+  rotate: false
+  xy: 1213, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+theking2
+  rotate: false
+  xy: 1415, 607
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+theking3
+  rotate: false
+  xy: 1617, 809
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+with1
+  rotate: false
+  xy: 1011, 1
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+with2
+  rotate: false
+  xy: 1213, 203
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+with3
+  rotate: false
+  xy: 1415, 405
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1

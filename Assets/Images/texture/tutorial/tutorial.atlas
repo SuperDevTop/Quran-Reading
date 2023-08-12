@@ -1,0 +1,166 @@
+tutorial.png
+size: 2048, 4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+avoid
+  rotate: true
+  xy: 942, 1054
+  size: 102, 32
+  orig: 102, 32
+  offset: 0, 0
+  index: -1
+ball
+  rotate: false
+  xy: 1020, 754
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+call
+  rotate: false
+  xy: 1019, 909
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+dc
+  rotate: false
+  xy: 942, 928
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+examples/1
+  rotate: true
+  xy: 1488, 1617
+  size: 402, 458
+  orig: 402, 458
+  offset: 0, 0
+  index: -1
+examples/2
+  rotate: true
+  xy: 1571, 1
+  size: 544, 458
+  orig: 544, 458
+  offset: 0, 0
+  index: -1
+examples/3
+  rotate: false
+  xy: 1054, 1089
+  size: 936, 526
+  orig: 936, 526
+  offset: 0, 0
+  index: -1
+examples/4
+  rotate: false
+  xy: 1, 1423
+  size: 890, 527
+  orig: 890, 527
+  offset: 0, 0
+  index: -1
+examples/cards-order
+  rotate: false
+  xy: 1, 1
+  size: 1568, 241
+  orig: 1568, 241
+  offset: 0, 0
+  index: -1
+examples/dash-call-popup
+  rotate: false
+  xy: 893, 1617
+  size: 593, 368
+  orig: 593, 368
+  offset: 0, 0
+  index: -1
+examples/game-object
+  rotate: false
+  xy: 1, 1952
+  size: 579, 444
+  orig: 579, 444
+  offset: 0, 0
+  index: -1
+examples/multiplayer-menu
+  rotate: false
+  xy: 1, 854
+  size: 939, 567
+  orig: 939, 567
+  offset: 0, 0
+  index: -1
+examples/player-profile-popup
+  rotate: false
+  xy: 1, 244
+  size: 1083, 508
+  orig: 1083, 508
+  offset: 0, 0
+  index: -1
+examples/playing-order
+  rotate: false
+  xy: 1086, 547
+  size: 960, 540
+  orig: 960, 540
+  offset: 0, 0
+  index: -1
+examples/suits-order
+  rotate: false
+  xy: 1, 754
+  size: 1017, 98
+  orig: 1017, 98
+  offset: 0, 0
+  index: -1
+gameplay-icon
+  rotate: true
+  xy: 942, 1249
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+multiplayer-icon
+  rotate: true
+  xy: 942, 1331
+  size: 80, 81
+  orig: 80, 81
+  offset: 0, 0
+  index: -1
+r
+  rotate: false
+  xy: 1005, 972
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+tutorial-menu-arrow
+  rotate: false
+  xy: 1005, 1035
+  size: 47, 83
+  orig: 47, 83
+  offset: 0, 0
+  index: -1
+tutorial-title
+  rotate: false
+  xy: 942, 1158
+  size: 89, 89
+  orig: 89, 89
+  offset: 0, 0
+  index: -1
+ui-icon
+  rotate: false
+  xy: 942, 854
+  size: 75, 72
+  orig: 75, 72
+  offset: 0, 0
+  index: -1
+w
+  rotate: false
+  xy: 942, 991
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+wr
+  rotate: true
+  xy: 1020, 818
+  size: 89, 61
+  orig: 89, 61
+  offset: 0, 0
+  index: -1

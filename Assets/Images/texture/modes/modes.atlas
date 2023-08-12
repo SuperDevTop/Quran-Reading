@@ -1,0 +1,90 @@
+
+modes.png
+size: 1024, 256
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+110
+  rotate: false
+  xy: 442, 131
+  size: 142, 116
+  orig: 142, 116
+  offset: 0, 0
+  index: -1
+111
+  rotate: false
+  xy: 1, 125
+  size: 145, 122
+  orig: 145, 122
+  offset: 0, 0
+  index: -1
+120
+  rotate: false
+  xy: 442, 13
+  size: 142, 116
+  orig: 142, 116
+  offset: 0, 0
+  index: -1
+121
+  rotate: false
+  xy: 1, 1
+  size: 145, 122
+  orig: 145, 122
+  offset: 0, 0
+  index: -1
+210
+  rotate: false
+  xy: 586, 131
+  size: 142, 116
+  orig: 142, 116
+  offset: 0, 0
+  index: -1
+211
+  rotate: false
+  xy: 148, 125
+  size: 145, 122
+  orig: 145, 122
+  offset: 0, 0
+  index: -1
+220
+  rotate: false
+  xy: 586, 13
+  size: 142, 116
+  orig: 142, 116
+  offset: 0, 0
+  index: -1
+221
+  rotate: false
+  xy: 148, 1
+  size: 145, 122
+  orig: 145, 122
+  offset: 0, 0
+  index: -1
+310
+  rotate: false
+  xy: 730, 131
+  size: 142, 116
+  orig: 142, 116
+  offset: 0, 0
+  index: -1
+311
+  rotate: false
+  xy: 295, 125
+  size: 145, 122
+  orig: 145, 122
+  offset: 0, 0
+  index: -1
+320
+  rotate: false
+  xy: 730, 13
+  size: 142, 116
+  orig: 142, 116
+  offset: 0, 0
+  index: -1
+321
+  rotate: false
+  xy: 295, 1
+  size: 145, 122
+  orig: 145, 122
+  offset: 0, 0
+  index: -1

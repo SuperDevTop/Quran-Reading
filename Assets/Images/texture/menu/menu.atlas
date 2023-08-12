@@ -1,0 +1,2833 @@
+menu.png
+size: 2048, 4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bola-types/classic-calculations
+  rotate: true
+  xy: 1596, 2218
+  size: 124, 53
+  orig: 124, 53
+  offset: 0, 0
+  index: -1
+bola-types/classic-small
+  rotate: true
+  xy: 183, 3979
+  size: 94, 25
+  orig: 94, 25
+  offset: 0, 0
+  index: -1
+bola-types/couple-bola
+  rotate: false
+  xy: 442, 1063
+  size: 254, 106
+  orig: 254, 106
+  offset: 0, 0
+  index: -1
+bola-types/full-bola
+  rotate: false
+  xy: 442, 1171
+  size: 254, 106
+  orig: 254, 106
+  offset: 0, 0
+  index: -1
+bola-types/micro-bola
+  rotate: false
+  xy: 442, 1279
+  size: 254, 106
+  orig: 254, 106
+  offset: 0, 0
+  index: -1
+bola-types/mini-bola
+  rotate: false
+  xy: 442, 1387
+  size: 254, 106
+  orig: 254, 106
+  offset: 0, 0
+  index: -1
+bola-types/single-bola
+  rotate: false
+  xy: 442, 1495
+  size: 254, 106
+  orig: 254, 106
+  offset: 0, 0
+  index: -1
+button/1/body
+  rotate: false
+  xy: 439, 1375
+  size: 1, 233
+  orig: 1, 233
+  offset: 0, 0
+  index: -1
+button/1/edge
+  rotate: true
+  xy: 434, 2492
+  size: 41, 233
+  orig: 41, 233
+  offset: 0, 0
+  index: -1
+button/1/line
+  rotate: false
+  xy: 1639, 1198
+  size: 11, 167
+  orig: 11, 167
+  offset: 0, 0
+  index: -1
+button/2/body
+  rotate: false
+  xy: 2045, 916
+  size: 1, 127
+  orig: 1, 127
+  offset: 0, 0
+  index: -1
+button/2/edge
+  rotate: false
+  xy: 1986, 1200
+  size: 27, 127
+  orig: 27, 127
+  offset: 0, 0
+  index: -1
+button/3/body
+  rotate: false
+  xy: 2045, 1045
+  size: 1, 126
+  orig: 1, 126
+  offset: 0, 0
+  index: -1
+button/3/edge
+  rotate: false
+  xy: 1208, 1753
+  size: 28, 126
+  orig: 28, 126
+  offset: 0, 0
+  index: -1
+button/4/body
+  rotate: false
+  xy: 1642, 1071
+  size: 1, 93
+  orig: 1, 93
+  offset: 0, 0
+  index: -1
+button/4/edge
+  rotate: false
+  xy: 2026, 3736
+  size: 18, 93
+  orig: 18, 93
+  offset: 0, 0
+  index: -1
+button/5/body
+  rotate: false
+  xy: 1645, 1071
+  size: 1, 91
+  orig: 1, 91
+  offset: 0, 0
+  index: -1
+button/5/edge
+  rotate: false
+  xy: 1639, 978
+  size: 9, 91
+  orig: 9, 91
+  offset: 0, 0
+  index: -1
+button/6/body
+  rotate: false
+  xy: 2045, 776
+  size: 1, 138
+  orig: 1, 138
+  offset: 0, 0
+  index: -1
+button/6/edge
+  rotate: true
+  xy: 1902, 2243
+  size: 35, 138
+  orig: 35, 138
+  offset: 0, 0
+  index: -1
+button/7/body
+  rotate: false
+  xy: 699, 994
+  size: 1, 327
+  orig: 1, 327
+  offset: 0, 0
+  index: -1
+button/7/edge
+  rotate: true
+  xy: 913, 1149
+  size: 41, 327
+  orig: 41, 327
+  offset: 0, 0
+  index: -1
+button/8/body
+  rotate: false
+  xy: 2042, 744
+  size: 1, 178
+  orig: 1, 196
+  offset: 0, 17
+  index: -1
+button/8/edge
+  rotate: true
+  xy: 418, 3271
+  size: 22, 178
+  orig: 26, 196
+  offset: 0, 17
+  index: -1
+button/9/body
+  rotate: false
+  xy: 1650, 948
+  size: 1, 126
+  orig: 1, 126
+  offset: 0, 0
+  index: -1
+button/9/edge
+  rotate: false
+  xy: 1208, 1881
+  size: 28, 126
+  orig: 28, 126
+  offset: 0, 0
+  index: -1
+button/10/body
+  rotate: false
+  xy: 1651, 713
+  size: 1, 233
+  orig: 1, 233
+  offset: 0, 0
+  index: -1
+button/10/edge
+  rotate: true
+  xy: 434, 2535
+  size: 41, 233
+  orig: 41, 233
+  offset: 0, 0
+  index: -1
+button/11/body
+  rotate: false
+  xy: 1639, 1071
+  size: 1, 96
+  orig: 1, 96
+  offset: 0, 0
+  index: -1
+button/11/edge
+  rotate: false
+  xy: 1633, 1367
+  size: 17, 96
+  orig: 17, 96
+  offset: 0, 0
+  index: -1
+button/12/body
+  rotate: false
+  xy: 2042, 924
+  size: 1, 126
+  orig: 1, 126
+  offset: 0, 0
+  index: -1
+button/12/edge
+  rotate: false
+  xy: 1208, 1625
+  size: 28, 126
+  orig: 28, 126
+  offset: 0, 0
+  index: -1
+challenges/daily
+  rotate: false
+  xy: 523, 3831
+  size: 46, 38
+  orig: 46, 38
+  offset: 0, 0
+  index: -1
+challenges/weekly
+  rotate: false
+  xy: 495, 3937
+  size: 46, 38
+  orig: 46, 38
+  offset: 0, 0
+  index: -1
+championship/abandoned
+  rotate: false
+  xy: 1351, 713
+  size: 298, 79
+  orig: 298, 79
+  offset: 0, 0
+  index: -1
+championship/badge-mini
+  rotate: false
+  xy: 1573, 2868
+  size: 75, 81
+  orig: 75, 81
+  offset: 0, 0
+  index: -1
+championship/clock
+  rotate: false
+  xy: 2015, 1292
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+championship/disqualified
+  rotate: false
+  xy: 442, 994
+  size: 255, 67
+  orig: 255, 67
+  offset: 0, 0
+  index: -1
+championship/first-prize-glow
+  rotate: false
+  xy: 1652, 1200
+  size: 332, 278
+  orig: 332, 278
+  offset: 0, 0
+  index: -1
+championship/first-prize
+  rotate: true
+  xy: 717, 566
+  size: 250, 191
+  orig: 332, 278
+  offset: 41, 43
+  index: -1
+championship/game-slot-complete
+  rotate: false
+  xy: 986, 3868
+  size: 52, 52
+  orig: 56, 56
+  offset: 2, 2
+  index: -1
+championship/game-slot-edge
+  rotate: false
+  xy: 774, 3868
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+championship/game-slot-line-body
+  rotate: false
+  xy: 705, 785
+  size: 8, 1
+  orig: 56, 1
+  offset: 24, 0
+  index: -1
+championship/game-slot-line
+  rotate: false
+  xy: 1639, 1195
+  size: 12, 1
+  orig: 56, 1
+  offset: 22, 0
+  index: -1
+championship/game-slot-live
+  rotate: false
+  xy: 348, 3453
+  size: 68, 26
+  orig: 68, 26
+  offset: 0, 0
+  index: -1
+championship/game-slot-mid
+  rotate: false
+  xy: 844, 3769
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+championship/game-slot-pending
+  rotate: false
+  xy: 956, 3769
+  size: 52, 52
+  orig: 56, 56
+  offset: 2, 2
+  index: -1
+championship/game-slot-progress
+  rotate: false
+  xy: 1010, 3768
+  size: 52, 52
+  orig: 56, 56
+  offset: 2, 2
+  index: -1
+championship/green-flag
+  rotate: false
+  xy: 1136, 3626
+  size: 33, 41
+  orig: 33, 41
+  offset: 0, 0
+  index: -1
+championship/no-data
+  rotate: false
+  xy: 1571, 3400
+  size: 70, 53
+  orig: 70, 53
+  offset: 0, 0
+  index: -1
+championship/quit
+  rotate: true
+  xy: 600, 3232
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+championship/rank-points
+  rotate: false
+  xy: 1140, 1926
+  size: 66, 68
+  orig: 66, 68
+  offset: 0, 0
+  index: -1
+championship/reminder-0
+  rotate: true
+  xy: 775, 3556
+  size: 53, 55
+  orig: 53, 55
+  offset: 0, 0
+  index: -1
+championship/reminder-1
+  rotate: false
+  xy: 775, 3611
+  size: 59, 59
+  orig: 59, 59
+  offset: 0, 0
+  index: -1
+championship/table/background-1
+  rotate: false
+  xy: 1, 1375
+  size: 436, 330
+  orig: 436, 330
+  offset: 0, 0
+  index: -1
+championship/table/background-2
+  rotate: false
+  xy: 913, 713
+  size: 436, 330
+  orig: 436, 330
+  offset: 0, 0
+  index: -1
+championship/ticket-mini
+  rotate: false
+  xy: 1571, 3455
+  size: 70, 43
+  orig: 70, 43
+  offset: 0, 0
+  index: -1
+championship/ticket
+  rotate: false
+  xy: 1881, 3035
+  size: 162, 101
+  orig: 162, 101
+  offset: 0, 0
+  index: -1
+championship/trophy-mini-2
+  rotate: false
+  xy: 1578, 2559
+  size: 70, 95
+  orig: 70, 95
+  offset: 0, 0
+  index: -1
+championship/trophy-mini-3
+  rotate: true
+  xy: 705, 1202
+  size: 158, 202
+  orig: 158, 202
+  offset: 0, 0
+  index: -1
+championship/trophy-mini
+  rotate: false
+  xy: 600, 3172
+  size: 48, 58
+  orig: 48, 58
+  offset: 0, 0
+  index: -1
+championship/trophy
+  rotate: true
+  xy: 898, 1498
+  size: 229, 308
+  orig: 229, 308
+  offset: 0, 0
+  index: -1
+championship/warning
+  rotate: true
+  xy: 1601, 1974
+  size: 53, 49
+  orig: 53, 49
+  offset: 0, 0
+  index: -1
+couples-bracket
+  rotate: true
+  xy: 1571, 3239
+  size: 20, 73
+  orig: 20, 73
+  offset: 0, 0
+  index: -1
+credits/estimation-calculator
+  rotate: false
+  xy: 118, 3746
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+credits/facebook
+  rotate: false
+  xy: 530, 3977
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+credits/fanella-productions
+  rotate: false
+  xy: 442, 711
+  size: 261, 281
+  orig: 261, 281
+  offset: 0, 0
+  index: -1
+credits/pocket-tarneeb
+  rotate: false
+  xy: 100, 3843
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+credits/twitter
+  rotate: false
+  xy: 624, 3975
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+credits/urban-crooks
+  rotate: false
+  xy: 1, 3882
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+feedback/feedback-textfield-body
+  rotate: false
+  xy: 702, 994
+  size: 1, 252
+  orig: 1, 252
+  offset: 0, 0
+  index: -1
+feedback/feedback-textfield-edge
+  rotate: false
+  xy: 1337, 1045
+  size: 12, 252
+  orig: 12, 252
+  offset: 0, 0
+  index: -1
+info-button
+  rotate: true
+  xy: 1018, 3396
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+leaderboard/arrow
+  rotate: true
+  xy: 925, 3600
+  size: 45, 28
+  orig: 45, 28
+  offset: 0, 0
+  index: -1
+leaderboard/overall
+  rotate: false
+  xy: 263, 3872
+  size: 65, 65
+  orig: 65, 65
+  offset: 0, 0
+  index: -1
+leaderboard/rank-1
+  rotate: false
+  xy: 417, 3561
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+leaderboard/rank-2
+  rotate: false
+  xy: 524, 3597
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+leaderboard/rank-3
+  rotate: false
+  xy: 407, 3668
+  size: 105, 105
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+leaderboard/top-button
+  rotate: false
+  xy: 1706, 308
+  size: 93, 41
+  orig: 93, 41
+  offset: 0, 0
+  index: -1
+line
+  rotate: false
+  xy: 708, 806
+  size: 5, 5
+  orig: 5, 5
+  offset: 0, 0
+  index: -1
+logo/ai-chip
+  rotate: true
+  xy: 957, 3530
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1
+logo/alert
+  rotate: true
+  xy: 969, 3390
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+logo/back
+  rotate: true
+  xy: 1904, 1480
+  size: 51, 80
+  orig: 51, 80
+  offset: 0, 0
+  index: -1
+logo/call-icon
+  rotate: false
+  xy: 661, 3831
+  size: 37, 37
+  orig: 37, 37
+  offset: 0, 0
+  index: -1
+logo/caution
+  rotate: true
+  xy: 1237, 2495
+  size: 118, 106
+  orig: 118, 106
+  offset: 0, 0
+  index: -1
+logo/coins/coins-glow
+  rotate: true
+  xy: 1081, 3067
+  size: 131, 136
+  orig: 137, 142
+  offset: 2, 4
+  index: -1
+logo/coins/coins
+  rotate: true
+  xy: 722, 3681
+  size: 86, 91
+  orig: 137, 142
+  offset: 25, 26
+  index: -1
+logo/compare
+  rotate: false
+  xy: 1572, 2951
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+logo/continue-game
+  rotate: false
+  xy: 611, 3831
+  size: 48, 37
+  orig: 48, 37
+  offset: 0, 0
+  index: -1
+logo/correct-popup-icon
+  rotate: false
+  xy: 1219, 3315
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+logo/correct
+  rotate: false
+  xy: 462, 3872
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+logo/create-game-icon
+  rotate: false
+  xy: 197, 3872
+  size: 64, 66
+  orig: 64, 66
+  offset: 0, 0
+  index: -1
+logo/facebook
+  rotate: false
+  xy: 579, 3704
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+logo/favourite-disabled
+  rotate: true
+  xy: 447, 3831
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+logo/favourite-enabled
+  rotate: true
+  xy: 455, 3938
+  size: 39, 38
+  orig: 39, 38
+  offset: 0, 0
+  index: -1
+logo/favourite-games
+  rotate: true
+  xy: 785, 3769
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1
+logo/feedback
+  rotate: true
+  xy: 336, 3631
+  size: 81, 69
+  orig: 81, 69
+  offset: 0, 0
+  index: -1
+logo/forever-alone
+  rotate: false
+  xy: 1, 3454
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+logo/game-logo/game-name-arb
+  rotate: false
+  xy: 1, 324
+  size: 714, 385
+  orig: 738, 403
+  offset: 12, 1
+  index: -1
+logo/game-logo/game-name-eng
+  rotate: false
+  xy: 914, 1
+  size: 887, 305
+  orig: 911, 321
+  offset: 12, 0
+  index: -1
+logo/game-logo/game-name-glow-arb
+  rotate: false
+  xy: 914, 308
+  size: 738, 403
+  orig: 738, 403
+  offset: 0, 0
+  index: -1
+logo/game-logo/game-name-glow-eng
+  rotate: false
+  xy: 1, 1
+  size: 911, 321
+  orig: 911, 321
+  offset: 0, 0
+  index: -1
+logo/gift
+  rotate: false
+  xy: 1114, 2271
+  size: 121, 133
+  orig: 121, 133
+  offset: 0, 0
+  index: -1
+logo/graph
+  rotate: false
+  xy: 1654, 308
+  size: 50, 42
+  orig: 50, 42
+  offset: 0, 0
+  index: -1
+logo/host-lan-icon
+  rotate: false
+  xy: 1140, 2045
+  size: 95, 120
+  orig: 95, 120
+  offset: 0, 0
+  index: -1
+logo/host
+  rotate: false
+  xy: 1881, 2884
+  size: 164, 149
+  orig: 164, 149
+  offset: 0, 0
+  index: -1
+logo/join-lan-icon
+  rotate: true
+  xy: 1218, 3436
+  size: 114, 120
+  orig: 114, 120
+  offset: 0, 0
+  index: -1
+logo/join
+  rotate: true
+  xy: 650, 3308
+  size: 131, 134
+  orig: 131, 134
+  offset: 0, 0
+  index: -1
+logo/king-mini
+  rotate: true
+  xy: 1601, 2079
+  size: 47, 49
+  orig: 47, 49
+  offset: 0, 0
+  index: -1
+logo/king
+  rotate: true
+  xy: 1902, 2280
+  size: 133, 137
+  orig: 133, 139
+  offset: 0, 2
+  index: -1
+logo/kooz-mini
+  rotate: true
+  xy: 969, 3342
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+logo/kooz
+  rotate: true
+  xy: 832, 3292
+  size: 131, 135
+  orig: 131, 135
+  offset: 0, 0
+  index: -1
+logo/lan
+  rotate: false
+  xy: 122, 3454
+  size: 91, 101
+  orig: 91, 101
+  offset: 0, 0
+  index: -1
+logo/leaderboard
+  rotate: false
+  xy: 1571, 3261
+  size: 72, 68
+  orig: 72, 68
+  offset: 0, 0
+  index: -1
+logo/loss-arrow
+  rotate: true
+  xy: 2026, 3666
+  size: 33, 21
+  orig: 33, 21
+  offset: 0, 0
+  index: -1
+logo/minus
+  rotate: true
+  xy: 1221, 1478
+  size: 43, 19
+  orig: 43, 19
+  offset: 0, 0
+  index: -1
+logo/new-game
+  rotate: false
+  xy: 571, 3831
+  size: 38, 38
+  orig: 38, 38
+  offset: 0, 0
+  index: -1
+logo/online
+  rotate: true
+  xy: 215, 3374
+  size: 122, 131
+  orig: 122, 131
+  offset: 0, 0
+  index: -1
+logo/play
+  rotate: false
+  xy: 1578, 2344
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
+logo/plus
+  rotate: false
+  xy: 776, 3499
+  size: 54, 55
+  orig: 54, 55
+  offset: 0, 0
+  index: -1
+logo/profile
+  rotate: true
+  xy: 1099, 2751
+  size: 123, 132
+  orig: 123, 132
+  offset: 0, 0
+  index: -1
+logo/punished
+  rotate: true
+  xy: 549, 3394
+  size: 101, 99
+  orig: 101, 99
+  offset: 0, 0
+  index: -1
+logo/purchased-icon
+  rotate: false
+  xy: 1064, 3767
+  size: 51, 51
+  orig: 51, 51
+  offset: 0, 0
+  index: -1
+logo/recent-games
+  rotate: false
+  xy: 714, 3870
+  size: 58, 59
+  orig: 58, 59
+  offset: 0, 0
+  index: -1
+logo/remove-ads
+  rotate: false
+  xy: 336, 3548
+  size: 79, 81
+  orig: 79, 81
+  offset: 0, 0
+  index: -1
+logo/report/calls
+  rotate: false
+  xy: 1578, 2490
+  size: 71, 67
+  orig: 71, 67
+  offset: 0, 0
+  index: -1
+logo/report/cheat
+  rotate: true
+  xy: 1986, 1397
+  size: 60, 61
+  orig: 60, 61
+  offset: 0, 0
+  index: -1
+logo/report/curse
+  rotate: false
+  xy: 1146, 1798
+  size: 60, 64
+  orig: 60, 64
+  offset: 0, 0
+  index: -1
+logo/rp
+  rotate: true
+  xy: 1080, 3448
+  size: 129, 135
+  orig: 129, 135
+  offset: 0, 0
+  index: -1
+logo/scores
+  rotate: false
+  xy: 1044, 3636
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
+logo/settings
+  rotate: false
+  xy: 348, 3374
+  size: 68, 77
+  orig: 68, 77
+  offset: 0, 0
+  index: -1
+logo/share-icon
+  rotate: true
+  xy: 887, 3974
+  size: 87, 85
+  orig: 87, 85
+  offset: 0, 0
+  index: -1
+logo/share
+  rotate: false
+  xy: 402, 3831
+  size: 43, 39
+  orig: 43, 39
+  offset: 0, 0
+  index: -1
+logo/solo
+  rotate: true
+  xy: 1, 3696
+  size: 85, 115
+  orig: 85, 115
+  offset: 0, 0
+  index: -1
+logo/speaker
+  rotate: false
+  xy: 1, 3783
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+logo/store
+  rotate: false
+  xy: 1903, 1676
+  size: 139, 133
+  orig: 139, 133
+  offset: 0, 0
+  index: -1
+logo/team
+  rotate: true
+  xy: 939, 3868
+  size: 55, 45
+  orig: 55, 45
+  offset: 0, 0
+  index: -1
+logo/win-arrow
+  rotate: true
+  xy: 2026, 3701
+  size: 33, 21
+  orig: 33, 21
+  offset: 0, 0
+  index: -1
+logo/wrong-popup-icon
+  rotate: false
+  xy: 215, 3498
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+logo/wrong
+  rotate: false
+  xy: 527, 3871
+  size: 63, 63
+  orig: 63, 63
+  offset: 0, 0
+  index: -1
+logo/xp
+  rotate: true
+  xy: 1081, 3200
+  size: 130, 136
+  orig: 130, 136
+  offset: 0, 0
+  index: -1
+multiplayer/championship/button-0
+  rotate: false
+  xy: 1238, 1998
+  size: 108, 164
+  orig: 108, 164
+  offset: 0, 0
+  index: -1
+multiplayer/championship/button-1
+  rotate: false
+  xy: 1237, 2164
+  size: 108, 164
+  orig: 108, 164
+  offset: 0, 0
+  index: -1
+multiplayer/championship/live
+  rotate: true
+  xy: 2015, 1173
+  size: 72, 32
+  orig: 72, 32
+  offset: 0, 0
+  index: -1
+multiplayer/daily-challenges-icon
+  rotate: false
+  xy: 404, 3775
+  size: 45, 54
+  orig: 45, 54
+  offset: 0, 0
+  index: -1
+multiplayer/filter-btn
+  rotate: false
+  xy: 1236, 2615
+  size: 106, 113
+  orig: 106, 113
+  offset: 0, 0
+  index: -1
+multiplayer/filter/classic-0
+  rotate: false
+  xy: 650, 3228
+  size: 180, 78
+  orig: 180, 78
+  offset: 0, 0
+  index: -1
+multiplayer/filter/classic-1
+  rotate: false
+  xy: 836, 3210
+  size: 180, 80
+  orig: 180, 80
+  offset: 0, 0
+  index: -1
+multiplayer/filter/classic-2
+  rotate: false
+  xy: 418, 3172
+  size: 180, 97
+  orig: 180, 97
+  offset: 0, 0
+  index: -1
+multiplayer/friends-btn
+  rotate: false
+  xy: 1237, 2330
+  size: 107, 163
+  orig: 107, 163
+  offset: 0, 0
+  index: -1
+multiplayer/join-game-popup/player-seat
+  rotate: false
+  xy: 330, 3872
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+multiplayer/join-game-popup/seat-bg
+  rotate: false
+  xy: 396, 3872
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+multiplayer/join-game-popup/seat-person
+  rotate: true
+  xy: 1601, 2029
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+multiplayer/join-game-popup/spectate-icon
+  rotate: true
+  xy: 836, 3600
+  size: 58, 34
+  orig: 58, 34
+  offset: 0, 0
+  index: -1
+multiplayer/matchmake-icon
+  rotate: true
+  xy: 966, 3483
+  size: 45, 48
+  orig: 45, 48
+  offset: 0, 0
+  index: -1
+multiplayer/mini-filter
+  rotate: false
+  xy: 919, 3831
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+multiplayer/mini-refresh
+  rotate: false
+  xy: 876, 3831
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+multiplayer/online-icon
+  rotate: false
+  xy: 2015, 1023
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+multiplayer/refresh-btn
+  rotate: false
+  xy: 1234, 2730
+  size: 106, 113
+  orig: 106, 113
+  offset: 0, 0
+  index: -1
+multiplayer/search-btn
+  rotate: false
+  xy: 1233, 2845
+  size: 106, 113
+  orig: 106, 113
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/accept-btn
+  rotate: false
+  xy: 1146, 1864
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/add-friend
+  rotate: true
+  xy: 1016, 3527
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/avatar-frame-empty
+  rotate: true
+  xy: 1012, 3681
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/chat-btn
+  rotate: true
+  xy: 541, 3770
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/chat-tab
+  rotate: true
+  xy: 1986, 1329
+  size: 66, 61
+  orig: 66, 61
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/friends-tab
+  rotate: false
+  xy: 348, 3481
+  size: 67, 65
+  orig: 67, 65
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/game-btn-off
+  rotate: false
+  xy: 603, 3769
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/game-btn-on
+  rotate: false
+  xy: 592, 3871
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/more
+  rotate: false
+  xy: 653, 3870
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/notifications-tab
+  rotate: true
+  xy: 514, 3704
+  size: 64, 63
+  orig: 64, 63
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/pending-icon
+  rotate: true
+  xy: 826, 3831
+  size: 35, 48
+  orig: 35, 48
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/players-met-icon
+  rotate: false
+  xy: 1572, 3114
+  size: 74, 48
+  orig: 74, 48
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/refresh-icon-small
+  rotate: true
+  xy: 1208, 1523
+  size: 37, 30
+  orig: 37, 30
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/reject-btn
+  rotate: false
+  xy: 1018, 3210
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/remove-friend
+  rotate: false
+  xy: 664, 3769
+  size: 59, 60
+  orig: 59, 60
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/requests-tab
+  rotate: false
+  xy: 1571, 3331
+  size: 72, 67
+  orig: 72, 67
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/social-panel-close-btn
+  rotate: true
+  xy: 832, 3425
+  size: 83, 132
+  orig: 83, 132
+  offset: 0, 0
+  index: -1
+multiplayer/social-panel/tab-pick
+  rotate: true
+  xy: 1238, 1895
+  size: 101, 110
+  orig: 101, 110
+  offset: 0, 0
+  index: -1
+multiplayer/table-object/ai-seat
+  rotate: true
+  xy: 957, 3530
+  size: 58, 57
+  orig: 58, 57
+  offset: 0, 0
+  index: -1
+multiplayer/table-object/busy-seat
+  rotate: false
+  xy: 849, 3926
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+multiplayer/table-object/chat-disabled
+  rotate: false
+  xy: 902, 3769
+  size: 52, 55
+  orig: 52, 55
+  offset: 0, 0
+  index: -1
+multiplayer/table-object/free-seat
+  rotate: false
+  xy: 897, 3925
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+multiplayer/table-object/lock
+  rotate: false
+  xy: 598, 3284
+  size: 50, 58
+  orig: 50, 58
+  offset: 0, 0
+  index: -1
+multiplayer/table-object/table-object-main-highlighted
+  rotate: false
+  xy: 1, 711
+  size: 439, 330
+  orig: 439, 330
+  offset: 0, 0
+  index: -1
+multiplayer/table-object/table-object-main
+  rotate: false
+  xy: 1, 1043
+  size: 439, 330
+  orig: 439, 330
+  offset: 0, 0
+  index: -1
+picker-arrow
+  rotate: true
+  xy: 530, 4071
+  size: 24, 46
+  orig: 24, 46
+  offset: 0, 0
+  index: -1
+play-time/0
+  rotate: false
+  xy: 1903, 2171
+  size: 138, 70
+  orig: 138, 70
+  offset: 0, 0
+  index: -1
+play-time/5
+  rotate: false
+  xy: 1083, 2977
+  size: 137, 88
+  orig: 137, 88
+  offset: 0, 0
+  index: -1
+play-time/10
+  rotate: false
+  xy: 1876, 3331
+  size: 170, 88
+  orig: 170, 88
+  offset: 0, 0
+  index: -1
+play-time/15
+  rotate: false
+  xy: 1879, 3241
+  size: 167, 88
+  orig: 167, 88
+  offset: 0, 0
+  index: -1
+play-time/20
+  rotate: false
+  xy: 250, 2129
+  size: 187, 88
+  orig: 187, 88
+  offset: 0, 0
+  index: -1
+play-time/25
+  rotate: false
+  xy: 650, 3138
+  size: 184, 88
+  orig: 184, 88
+  offset: 0, 0
+  index: -1
+play-time/30
+  rotate: false
+  xy: 251, 1707
+  size: 188, 88
+  orig: 188, 88
+  offset: 0, 0
+  index: -1
+popups/start-offline-bola/bola-connection-line-pixel
+  rotate: true
+  xy: 910, 566
+  size: 1, 2
+  orig: 1, 2
+  offset: 0, 0
+  index: -1
+popups/start-offline-bola/bola-connection-line
+  rotate: true
+  xy: 1879, 3138
+  size: 101, 167
+  orig: 101, 167
+  offset: 0, 0
+  index: -1
+profile/achievements-icon
+  rotate: true
+  xy: 1016, 3457
+  size: 68, 62
+  orig: 68, 62
+  offset: 0, 0
+  index: -1
+profile/actions
+  rotate: false
+  xy: 210, 3979
+  size: 87, 93
+  orig: 87, 93
+  offset: 0, 0
+  index: -1
+profile/button/apple-1
+  rotate: false
+  xy: 1654, 744
+  size: 386, 91
+  orig: 386, 91
+  offset: 0, 0
+  index: -1
+profile/button/apple-2
+  rotate: false
+  xy: 945, 3925
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+profile/button/facebook-1
+  rotate: false
+  xy: 1654, 837
+  size: 386, 91
+  orig: 386, 91
+  offset: 0, 0
+  index: -1
+profile/button/facebook-2
+  rotate: false
+  xy: 1097, 3681
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+profile/button/google-1
+  rotate: false
+  xy: 1654, 930
+  size: 386, 91
+  orig: 386, 91
+  offset: 0, 0
+  index: -1
+profile/button/google-2
+  rotate: false
+  xy: 1044, 3588
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+profile/button/password-2
+  rotate: false
+  xy: 487, 3831
+  size: 34, 39
+  orig: 34, 39
+  offset: 0, 0
+  index: -1
+profile/history
+  rotate: false
+  xy: 299, 3979
+  size: 87, 93
+  orig: 87, 93
+  offset: 0, 0
+  index: -1
+profile/info-icon
+  rotate: false
+  xy: 1092, 3579
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1
+profile/link
+  rotate: false
+  xy: 1208, 1562
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+profile/linked
+  rotate: false
+  xy: 1208, 1594
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+profile/more
+  rotate: false
+  xy: 388, 3979
+  size: 87, 93
+  orig: 87, 93
+  offset: 0, 0
+  index: -1
+profile/offline
+  rotate: false
+  xy: 872, 3600
+  size: 51, 55
+  orig: 51, 55
+  offset: 0, 0
+  index: -1
+profile/online
+  rotate: false
+  xy: 832, 3868
+  size: 52, 56
+  orig: 52, 56
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/apply
+  rotate: false
+  xy: 1018, 3272
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/change-email
+  rotate: true
+  xy: 886, 3868
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/change-password
+  rotate: false
+  xy: 1601, 1919
+  size: 49, 53
+  orig: 49, 53
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/delete-button
+  rotate: false
+  xy: 644, 3704
+  size: 56, 63
+  orig: 56, 63
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/delete
+  rotate: false
+  xy: 1018, 3334
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/registration
+  rotate: false
+  xy: 543, 3936
+  size: 37, 38
+  orig: 37, 38
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/reset
+  rotate: false
+  xy: 479, 3775
+  size: 60, 53
+  orig: 60, 53
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/restore-purchases
+  rotate: true
+  xy: 1146, 1729
+  size: 67, 60
+  orig: 67, 60
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/sign-in
+  rotate: true
+  xy: 966, 3435
+  size: 46, 48
+  orig: 46, 48
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/sign-out
+  rotate: false
+  xy: 598, 3344
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/user-pass-connection-line-2
+  rotate: true
+  xy: 698, 1362
+  size: 44, 200
+  orig: 44, 200
+  offset: 0, 0
+  index: -1
+profile/sign-in-register-popup/user-pass-connection-line
+  rotate: false
+  xy: 786, 3308
+  size: 44, 101
+  orig: 44, 101
+  offset: 0, 0
+  index: -1
+ranks/r0
+  rotate: true
+  xy: 690, 2052
+  size: 160, 186
+  orig: 230, 220
+  offset: 35, 18
+  index: -1
+ranks/r1
+  rotate: false
+  xy: 698, 1408
+  size: 198, 213
+  orig: 230, 220
+  offset: 16, 3
+  index: -1
+ranks/r2
+  rotate: false
+  xy: 694, 1623
+  size: 198, 213
+  orig: 230, 220
+  offset: 16, 3
+  index: -1
+ranks/r3
+  rotate: false
+  xy: 691, 1838
+  size: 198, 212
+  orig: 230, 220
+  offset: 16, 4
+  index: -1
+ranks/r4
+  rotate: false
+  xy: 434, 2578
+  size: 230, 220
+  orig: 230, 220
+  offset: 0, 0
+  index: -1
+ranks/r5
+  rotate: false
+  xy: 1, 2767
+  size: 230, 220
+  orig: 230, 220
+  offset: 0, 0
+  index: -1
+ranks/r6
+  rotate: false
+  xy: 1346, 2339
+  size: 230, 220
+  orig: 230, 220
+  offset: 0, 0
+  index: -1
+rp-coin/rp-coin-small
+  rotate: false
+  xy: 122, 3557
+  size: 91, 94
+  orig: 91, 94
+  offset: 0, 0
+  index: -1
+rp-disabled-cell
+  rotate: true
+  xy: 1240, 1524
+  size: 148, 109
+  orig: 148, 109
+  offset: 0, 0
+  index: -1
+rp/couple
+  rotate: true
+  xy: 1986, 1459
+  size: 78, 60
+  orig: 78, 60
+  offset: 0, 0
+  index: -1
+rp/single
+  rotate: false
+  xy: 725, 3769
+  size: 58, 60
+  orig: 58, 60
+  offset: 0, 0
+  index: -1
+scroll-knob
+  rotate: true
+  xy: 215, 3736
+  size: 35, 100
+  orig: 35, 100
+  offset: 0, 0
+  index: -1
+scroll-menu-gradient
+  rotate: false
+  xy: 1636, 1260
+  size: 1, 55
+  orig: 1, 55
+  offset: 0, 0
+  index: -1
+settings/arb
+  rotate: true
+  xy: 1107, 2538
+  size: 76, 127
+  orig: 76, 127
+  offset: 0, 0
+  index: -1
+settings/color-slot
+  rotate: false
+  xy: 1571, 3164
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+settings/eng
+  rotate: true
+  xy: 650, 3441
+  size: 100, 124
+  orig: 100, 124
+  offset: 0, 0
+  index: -1
+settings/frn
+  rotate: true
+  xy: 1222, 2960
+  size: 95, 117
+  orig: 95, 117
+  offset: 0, 0
+  index: -1
+settings/slider/drag-knob
+  rotate: true
+  xy: 451, 3775
+  size: 54, 26
+  orig: 54, 26
+  offset: 0, 0
+  index: -1
+settings/slider/slider-body
+  rotate: true
+  xy: 705, 788
+  size: 24, 1
+  orig: 24, 1
+  offset: 0, 0
+  index: -1
+settings/slider/slider-edge
+  rotate: true
+  xy: 1639, 1169
+  size: 24, 12
+  orig: 24, 12
+  offset: 0, 0
+  index: -1
+settings/toggle-buttons-stats/colors-order-1
+  rotate: false
+  xy: 1881, 2794
+  size: 165, 43
+  orig: 165, 43
+  offset: 0, 0
+  index: -1
+settings/toggle-buttons-stats/colors-order-2
+  rotate: false
+  xy: 1881, 2839
+  size: 165, 43
+  orig: 165, 43
+  offset: 0, 0
+  index: -1
+settings/toggle-buttons-stats/value-order-1
+  rotate: true
+  xy: 1603, 1598
+  size: 117, 47
+  orig: 117, 47
+  offset: 0, 0
+  index: -1
+settings/toggle-buttons-stats/value-order-2
+  rotate: true
+  xy: 1603, 1717
+  size: 110, 47
+  orig: 110, 47
+  offset: 0, 0
+  index: -1
+store/avatars/add-avatar-slot-btn
+  rotate: false
+  xy: 122, 3653
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+store/avatars/background/0/body
+  rotate: false
+  xy: 956, 3831
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+store/avatars/background/0/corner
+  rotate: false
+  xy: 993, 3831
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+store/avatars/background/0/side
+  rotate: false
+  xy: 909, 993
+  size: 1, 35
+  orig: 1, 35
+  offset: 0, 0
+  index: -1
+store/avatars/background/1/body
+  rotate: false
+  xy: 1030, 3831
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+store/avatars/background/1/corner
+  rotate: false
+  xy: 1097, 3729
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+store/avatars/background/1/side
+  rotate: false
+  xy: 1636, 1317
+  size: 1, 35
+  orig: 1, 35
+  offset: 0, 0
+  index: -1
+store/avatars/buy-btn
+  rotate: false
+  xy: 1653, 1023
+  size: 360, 175
+  orig: 360, 175
+  offset: 0, 0
+  index: -1
+store/avatars/category/background
+  rotate: false
+  xy: 1222, 3057
+  size: 116, 125
+  orig: 116, 125
+  offset: 0, 0
+  index: -1
+store/avatars/category/body
+  rotate: false
+  xy: 650, 3543
+  size: 123, 122
+  orig: 123, 122
+  offset: 0, 0
+  index: -1
+store/avatars/category/ear
+  rotate: true
+  xy: 418, 3391
+  size: 83, 129
+  orig: 83, 129
+  offset: 0, 0
+  index: -1
+store/avatars/category/eye
+  rotate: false
+  xy: 418, 3295
+  size: 149, 94
+  orig: 149, 94
+  offset: 0, 0
+  index: -1
+store/avatars/category/face
+  rotate: true
+  xy: 1080, 3332
+  size: 114, 136
+  orig: 114, 136
+  offset: 0, 0
+  index: -1
+store/avatars/category/glasses
+  rotate: false
+  xy: 1874, 3666
+  size: 150, 83
+  orig: 150, 83
+  offset: 0, 0
+  index: -1
+store/avatars/category/hair
+  rotate: true
+  xy: 1107, 2616
+  size: 133, 125
+  orig: 133, 125
+  offset: 0, 0
+  index: -1
+store/avatars/category/hat
+  rotate: true
+  xy: 215, 3619
+  size: 115, 119
+  orig: 115, 119
+  offset: 0, 0
+  index: -1
+store/avatars/category/mouth
+  rotate: false
+  xy: 418, 3476
+  size: 125, 83
+  orig: 125, 83
+  offset: 0, 0
+  index: -1
+store/avatars/category/nose
+  rotate: true
+  xy: 832, 3510
+  size: 88, 123
+  orig: 88, 123
+  offset: 0, 0
+  index: -1
+store/avatars/category/premium
+  rotate: false
+  xy: 1238, 1781
+  size: 110, 112
+  orig: 110, 112
+  offset: 0, 0
+  index: -1
+store/avatars/category/random
+  rotate: false
+  xy: 1114, 2406
+  size: 121, 130
+  orig: 121, 130
+  offset: 0, 0
+  index: -1
+store/avatars/color/brightness-ball
+  rotate: false
+  xy: 925, 3647
+  size: 28, 27
+  orig: 28, 27
+  offset: 0, 0
+  index: -1
+store/avatars/color/button
+  rotate: false
+  xy: 215, 3773
+  size: 97, 97
+  orig: 97, 97
+  offset: 0, 0
+  index: -1
+store/avatars/color/color-bot
+  rotate: true
+  xy: 1221, 1266
+  size: 210, 19
+  orig: 212, 91
+  offset: 1, 0
+  index: -1
+store/avatars/color/color-frame
+  rotate: false
+  xy: 1, 3361
+  size: 212, 91
+  orig: 212, 91
+  offset: 0, 0
+  index: -1
+store/avatars/color/color-top
+  rotate: true
+  xy: 1576, 2656
+  size: 210, 72
+  orig: 212, 91
+  offset: 1, 18
+  index: -1
+store/avatars/female-icon
+  rotate: true
+  xy: 1903, 1811
+  size: 178, 138
+  orig: 178, 138
+  offset: 0, 0
+  index: -1
+store/avatars/item/eye/eye-1-color
+  rotate: true
+  xy: 868, 3681
+  size: 86, 34
+  orig: 300, 300
+  offset: 107, 176
+  index: -1
+store/avatars/item/eye/eye-2-color
+  rotate: true
+  xy: 868, 3681
+  size: 86, 34
+  orig: 300, 300
+  offset: 107, 176
+  index: -1
+store/avatars/item/eye/eye-3-color
+  rotate: true
+  xy: 1603, 1465
+  size: 131, 47
+  orig: 300, 300
+  offset: 107, 164
+  index: -1
+store/avatars/item/eye/eye-4-color
+  rotate: true
+  xy: 807, 3974
+  size: 88, 43
+  orig: 300, 300
+  offset: 108, 170
+  index: -1
+store/avatars/item/eye/eye-5-color
+  rotate: false
+  xy: 718, 3975
+  size: 87, 92
+  orig: 300, 300
+  offset: 107, 139
+  index: -1
+store/avatars/item/eye/eye-6-color
+  rotate: true
+  xy: 940, 3681
+  size: 86, 34
+  orig: 300, 300
+  offset: 107, 174
+  index: -1
+store/avatars/item/eye/eye-7-color
+  rotate: true
+  xy: 1601, 1829
+  size: 88, 49
+  orig: 300, 300
+  offset: 106, 166
+  index: -1
+store/avatars/item/eye/eye-8-color
+  rotate: true
+  xy: 815, 3681
+  size: 86, 51
+  orig: 300, 300
+  offset: 106, 164
+  index: -1
+store/avatars/item/eye/eye-9-color
+  rotate: true
+  xy: 852, 3974
+  size: 88, 33
+  orig: 300, 300
+  offset: 105, 175
+  index: -1
+store/avatars/item/eye/eye-10-color
+  rotate: true
+  xy: 976, 3681
+  size: 85, 34
+  orig: 300, 300
+  offset: 106, 176
+  index: -1
+store/avatars/item/eye/eye-11-color
+  rotate: false
+  xy: 760, 3931
+  size: 87, 41
+  orig: 300, 300
+  offset: 106, 167
+  index: -1
+store/avatars/item/eye/eye-12-color
+  rotate: false
+  xy: 98, 3940
+  size: 88, 37
+  orig: 300, 300
+  offset: 106, 173
+  index: -1
+store/avatars/item/eye/eye-13-color
+  rotate: false
+  xy: 670, 3932
+  size: 88, 41
+  orig: 300, 300
+  offset: 105, 168
+  index: -1
+store/avatars/item/eye/eye-14-color
+  rotate: false
+  xy: 738, 3831
+  size: 86, 35
+  orig: 300, 300
+  offset: 107, 174
+  index: -1
+store/avatars/item/eye/eye-15-color
+  rotate: false
+  xy: 188, 3940
+  size: 86, 37
+  orig: 300, 300
+  offset: 107, 175
+  index: -1
+store/avatars/item/eye/eye-16-color
+  rotate: false
+  xy: 314, 3831
+  size: 86, 39
+  orig: 300, 300
+  offset: 107, 174
+  index: -1
+store/avatars/item/eye/eye-17-color
+  rotate: false
+  xy: 1140, 2009
+  size: 96, 34
+  orig: 300, 300
+  offset: 101, 170
+  index: -1
+store/avatars/item/eye/eye-18-color
+  rotate: false
+  xy: 807, 4064
+  size: 87, 28
+  orig: 300, 300
+  offset: 106, 179
+  index: -1
+store/avatars/item/eye/eye-19-color
+  rotate: true
+  xy: 786, 3411
+  size: 86, 44
+  orig: 300, 300
+  offset: 105, 171
+  index: -1
+store/avatars/item/eye/eye-20-color
+  rotate: true
+  xy: 2015, 1052
+  size: 98, 28
+  orig: 300, 300
+  offset: 100, 176
+  index: -1
+store/avatars/item/eye/eye-21-color
+  rotate: true
+  xy: 569, 3295
+  size: 97, 27
+  orig: 300, 300
+  offset: 100, 179
+  index: -1
+store/avatars/item/eye/eye-22-color
+  rotate: false
+  xy: 276, 3939
+  size: 89, 38
+  orig: 300, 300
+  offset: 106, 173
+  index: -1
+store/avatars/item/eye/eye-23-color
+  rotate: false
+  xy: 582, 3936
+  size: 86, 37
+  orig: 300, 300
+  offset: 107, 170
+  index: -1
+store/avatars/item/eye/eye-24-color
+  rotate: true
+  xy: 904, 3681
+  size: 86, 34
+  orig: 300, 300
+  offset: 107, 175
+  index: -1
+store/avatars/item/eye/eye-25-color
+  rotate: true
+  xy: 1601, 2128
+  size: 88, 48
+  orig: 300, 300
+  offset: 106, 173
+  index: -1
+store/avatars/item/eye/eye-26-color
+  rotate: true
+  xy: 477, 3979
+  size: 93, 51
+  orig: 300, 300
+  offset: 102, 163
+  index: -1
+store/avatars/item/eye/eye-27-color
+  rotate: false
+  xy: 367, 3938
+  size: 86, 39
+  orig: 300, 300
+  offset: 107, 170
+  index: -1
+store/avatars/item/eye/eye-28-color
+  rotate: false
+  xy: 631, 3667
+  size: 89, 35
+  orig: 300, 300
+  offset: 106, 176
+  index: -1
+store/avatars/item/none
+  rotate: false
+  xy: 1654, 352
+  size: 390, 390
+  orig: 390, 390
+  offset: 0, 0
+  index: -1
+store/avatars/male-icon
+  rotate: true
+  xy: 1903, 1991
+  size: 178, 138
+  orig: 178, 138
+  offset: 0, 0
+  index: -1
+store/avatars/saved
+  rotate: false
+  xy: 1, 3575
+  size: 119, 119
+  orig: 119, 119
+  offset: 0, 0
+  index: -1
+store/buy-all
+  rotate: true
+  xy: 957, 3590
+  size: 89, 85
+  orig: 89, 85
+  offset: 0, 0
+  index: -1
+store/cards/arabian
+  rotate: false
+  xy: 436, 2318
+  size: 244, 172
+  orig: 250, 200
+  offset: 2, 8
+  index: -1
+store/cards/black-edition
+  rotate: false
+  xy: 1, 1707
+  size: 248, 178
+  orig: 250, 200
+  offset: 1, 6
+  index: -1
+store/cards/blueprint
+  rotate: false
+  xy: 1347, 2166
+  size: 247, 171
+  orig: 250, 200
+  offset: 0, 10
+  index: -1
+store/cards/bright-future
+  rotate: false
+  xy: 1652, 2021
+  size: 249, 177
+  orig: 250, 200
+  offset: 1, 6
+  index: -1
+store/cards/carbon
+  rotate: false
+  xy: 441, 1786
+  size: 248, 176
+  orig: 250, 200
+  offset: 0, 6
+  index: -1
+store/cards/classic
+  rotate: false
+  xy: 1350, 1806
+  size: 249, 178
+  orig: 250, 200
+  offset: 1, 6
+  index: -1
+store/cards/comics
+  rotate: false
+  xy: 1, 1887
+  size: 248, 175
+  orig: 250, 200
+  offset: 0, 6
+  index: -1
+store/cards/dark-future
+  rotate: false
+  xy: 1652, 1480
+  size: 250, 178
+  orig: 250, 200
+  offset: 0, 6
+  index: -1
+store/cards/dark-nepalian
+  rotate: false
+  xy: 1652, 1841
+  size: 249, 178
+  orig: 250, 200
+  offset: 0, 5
+  index: -1
+store/cards/deco
+  rotate: false
+  xy: 868, 2490
+  size: 237, 160
+  orig: 250, 200
+  offset: 5, 15
+  index: -1
+store/cards/digital
+  rotate: false
+  xy: 1, 2241
+  size: 245, 177
+  orig: 250, 200
+  offset: 1, 6
+  index: -1
+store/cards/dirty
+  rotate: false
+  xy: 1652, 1660
+  size: 249, 179
+  orig: 250, 200
+  offset: 1, 5
+  index: -1
+store/cards/glossy
+  rotate: false
+  xy: 441, 1964
+  size: 247, 175
+  orig: 250, 200
+  offset: 1, 7
+  index: -1
+store/cards/gold-edition
+  rotate: false
+  xy: 1, 2064
+  size: 247, 175
+  orig: 250, 200
+  offset: 2, 7
+  index: -1
+store/cards/modern
+  rotate: false
+  xy: 1803, 177
+  size: 244, 173
+  orig: 250, 200
+  offset: 3, 7
+  index: -1
+store/cards/natural
+  rotate: false
+  xy: 891, 1910
+  size: 247, 172
+  orig: 250, 200
+  offset: 1, 8
+  index: -1
+store/cards/newstandard
+  rotate: false
+  xy: 1, 2420
+  size: 245, 171
+  orig: 250, 200
+  offset: 3, 8
+  index: -1
+store/cards/noir
+  rotate: false
+  xy: 1351, 1630
+  size: 250, 174
+  orig: 250, 200
+  offset: 0, 12
+  index: -1
+store/cards/origami
+  rotate: false
+  xy: 1, 2593
+  size: 244, 172
+  orig: 250, 200
+  offset: 4, 8
+  index: -1
+store/cards/paint
+  rotate: false
+  xy: 442, 1603
+  size: 250, 181
+  orig: 250, 200
+  offset: 0, 4
+  index: -1
+store/cards/pirate
+  rotate: false
+  xy: 1651, 2200
+  size: 249, 177
+  orig: 250, 200
+  offset: 0, 6
+  index: -1
+store/cards/pixels
+  rotate: false
+  xy: 1351, 1447
+  size: 250, 181
+  orig: 250, 200
+  offset: 0, 3
+  index: -1
+store/cards/red-nepalian
+  rotate: false
+  xy: 894, 1729
+  size: 250, 179
+  orig: 250, 200
+  offset: 0, 5
+  index: -1
+store/cards/simplify
+  rotate: false
+  xy: 1803, 1
+  size: 244, 174
+  orig: 250, 200
+  offset: 3, 7
+  index: -1
+store/cards/stainless
+  rotate: false
+  xy: 878, 2084
+  size: 245, 170
+  orig: 250, 200
+  offset: 1, 11
+  index: -1
+store/cards/standard
+  rotate: false
+  xy: 1350, 1986
+  size: 249, 178
+  orig: 250, 200
+  offset: 0, 6
+  index: -1
+store/cards/sticker
+  rotate: false
+  xy: 439, 2141
+  size: 246, 175
+  orig: 250, 200
+  offset: 1, 7
+  index: -1
+store/category-icons/store-avatar
+  rotate: false
+  xy: 909, 1266
+  size: 310, 230
+  orig: 310, 230
+  offset: 0, 0
+  index: -1
+store/category-icons/store-cards
+  rotate: false
+  xy: 1351, 1260
+  size: 280, 185
+  orig: 280, 185
+  offset: 0, 0
+  index: -1
+store/category-icons/store-memes
+  rotate: true
+  xy: 705, 818
+  size: 221, 202
+  orig: 221, 202
+  offset: 0, 0
+  index: -1
+store/category-icons/store-movies
+  rotate: true
+  xy: 873, 2256
+  size: 232, 239
+  orig: 232, 239
+  offset: 0, 0
+  index: -1
+store/category-icons/store-tables
+  rotate: false
+  xy: 1351, 794
+  size: 297, 182
+  orig: 297, 182
+  offset: 0, 0
+  index: -1
+store/category-icons/store-taunts
+  rotate: false
+  xy: 1351, 978
+  size: 286, 280
+  orig: 286, 280
+  offset: 0, 0
+  index: -1
+store/coins-bar/coins-bar-bg
+  rotate: false
+  xy: 913, 1192
+  size: 325, 72
+  orig: 325, 72
+  offset: 0, 0
+  index: -1
+store/coins-bar/plus-store-button
+  rotate: true
+  xy: 1125, 2167
+  size: 102, 108
+  orig: 102, 108
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/coins-package-1
+  rotate: true
+  xy: 1572, 3026
+  size: 86, 74
+  orig: 86, 74
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/coins-package-2
+  rotate: false
+  xy: 1238, 1674
+  size: 111, 105
+  orig: 111, 105
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/coins-package-3
+  rotate: false
+  xy: 1874, 3515
+  size: 173, 149
+  orig: 173, 149
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/coins-package-4
+  rotate: true
+  xy: 1881, 2631
+  size: 161, 166
+  orig: 161, 166
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/coins-package-5
+  rotate: false
+  xy: 705, 1041
+  size: 206, 159
+  orig: 206, 159
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/coins-package-6
+  rotate: true
+  xy: 1882, 2415
+  size: 214, 165
+  orig: 214, 165
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/coins-package-7
+  rotate: true
+  xy: 717, 324
+  size: 240, 193
+  orig: 240, 193
+  offset: 0, 0
+  index: -1
+store/coins-package-icons/remove-ads-package
+  rotate: true
+  xy: 1904, 1539
+  size: 135, 143
+  orig: 135, 143
+  offset: 0, 0
+  index: -1
+store/coins-package-object/best-value-arb
+  rotate: false
+  xy: 251, 1797
+  size: 188, 81
+  orig: 188, 81
+  offset: 0, 0
+  index: -1
+store/coins-package-object/best-value-eng
+  rotate: false
+  xy: 251, 1880
+  size: 188, 81
+  orig: 188, 81
+  offset: 0, 0
+  index: -1
+store/coins-package-object/most-popular-arb
+  rotate: false
+  xy: 251, 1963
+  size: 188, 81
+  orig: 188, 81
+  offset: 0, 0
+  index: -1
+store/coins-package-object/most-popular-eng
+  rotate: false
+  xy: 251, 2046
+  size: 188, 81
+  orig: 188, 81
+  offset: 0, 0
+  index: -1
+store/coins-package-object/package-object-body-1
+  rotate: false
+  xy: 2046, 352
+  size: 1, 422
+  orig: 1, 422
+  offset: 0, 0
+  index: -1
+store/coins-package-object/package-object-body
+  rotate: false
+  xy: 910, 569
+  size: 1, 422
+  orig: 1, 422
+  offset: 0, 0
+  index: -1
+store/coins-package-object/package-object-side-1
+  rotate: true
+  xy: 913, 1045
+  size: 50, 422
+  orig: 50, 422
+  offset: 0, 0
+  index: -1
+store/coins-package-object/package-object-side
+  rotate: true
+  xy: 913, 1097
+  size: 50, 422
+  orig: 50, 422
+  offset: 0, 0
+  index: -1
+store/sort-filter-btn
+  rotate: false
+  xy: 1242, 1299
+  size: 107, 223
+  orig: 107, 223
+  offset: 0, 0
+  index: -1
+store/tables/arabian
+  rotate: true
+  xy: 250, 2219
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/arrow
+  rotate: true
+  xy: 687, 2214
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/black
+  rotate: true
+  xy: 248, 2450
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/blue
+  rotate: true
+  xy: 682, 2445
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/blueprint
+  rotate: true
+  xy: 247, 2681
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/bricks
+  rotate: false
+  xy: 1651, 2379
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/brown
+  rotate: false
+  xy: 1650, 2565
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/carbon
+  rotate: false
+  xy: 1345, 2561
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/crystal
+  rotate: false
+  xy: 1650, 2751
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/dark
+  rotate: false
+  xy: 1342, 2747
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/disco
+  rotate: false
+  xy: 1650, 2937
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/equation
+  rotate: false
+  xy: 868, 2652
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/fabric
+  rotate: false
+  xy: 1341, 2933
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/graffiti
+  rotate: false
+  xy: 1648, 3123
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/gray
+  rotate: true
+  xy: 666, 2676
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/green
+  rotate: false
+  xy: 433, 2800
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/gwall
+  rotate: true
+  xy: 233, 2912
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/hexas
+  rotate: false
+  xy: 1, 2989
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/jeans
+  rotate: false
+  xy: 852, 2838
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/leather
+  rotate: true
+  xy: 664, 2907
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/machine
+  rotate: false
+  xy: 1340, 3119
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/metal
+  rotate: false
+  xy: 850, 3024
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/paper
+  rotate: false
+  xy: 1645, 3309
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/pego
+  rotate: false
+  xy: 1340, 3305
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/pirate
+  rotate: false
+  xy: 1643, 3495
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/red
+  rotate: false
+  xy: 419, 2986
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/wall
+  rotate: true
+  xy: 232, 3143
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/tables/white
+  rotate: false
+  xy: 1, 3175
+  size: 229, 184
+  orig: 300, 200
+  offset: 35, 7
+  index: -1
+store/title-icons/avatar-title
+  rotate: false
+  xy: 1083, 2876
+  size: 137, 99
+  orig: 137, 99
+  offset: 0, 0
+  index: -1
+store/title-icons/cards-title
+  rotate: true
+  xy: 1242, 1149
+  size: 143, 93
+  orig: 143, 93
+  offset: 0, 0
+  index: -1
+store/title-icons/main-title
+  rotate: false
+  xy: 545, 3497
+  size: 103, 98
+  orig: 103, 98
+  offset: 0, 0
+  index: -1
+store/title-icons/memes-title
+  rotate: true
+  xy: 96, 3979
+  size: 95, 85
+  orig: 95, 85
+  offset: 0, 0
+  index: -1
+store/title-icons/movies-title
+  rotate: false
+  xy: 1, 3979
+  size: 93, 95
+  orig: 93, 95
+  offset: 0, 0
+  index: -1
+store/title-icons/tables-title
+  rotate: false
+  xy: 1876, 3421
+  size: 157, 92
+  orig: 157, 92
+  offset: 0, 0
+  index: -1
+store/title-icons/taunts-title
+  rotate: true
+  xy: 1219, 3184
+  size: 129, 119
+  orig: 132, 119
+  offset: 2, 0
+  index: -1
+ui/menu-scroll-gradient/body
+  rotate: false
+  xy: 1633, 1260
+  size: 1, 66
+  orig: 1, 66
+  offset: 0, 0
+  index: -1
+ui/menu-scroll-gradient/edge
+  rotate: true
+  xy: 336, 3714
+  size: 92, 66
+  orig: 92, 66
+  offset: 0, 0
+  index: -1
+ui/textField/add-friend-textfield-icon
+  rotate: false
+  xy: 1091, 3636
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+ui/textField/cursor-black
+  rotate: false
+  xy: 705, 814
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+ui/textField/textField-body
+  rotate: false
+  xy: 1648, 1076
+  size: 1, 72
+  orig: 1, 72
+  offset: 0, 0
+  index: -1
+ui/textField/textfield-clear-btn
+  rotate: false
+  xy: 700, 3831
+  size: 36, 37
+  orig: 36, 37
+  offset: 0, 0
+  index: -1
+ui/textField/textField-edge
+  rotate: false
+  xy: 705, 711
+  size: 10, 72
+  orig: 10, 72
+  offset: 0, 0
+  index: -1
+ui/textField/textfield-enter
+  rotate: false
+  xy: 2015, 1247
+  size: 32, 43
+  orig: 32, 43
+  offset: 0, 0
+  index: -1
+ui/textField/textfield-search-icon
+  rotate: false
+  xy: 969, 3292
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+ui/toggle-btn-highlight/highlight-corner
+  rotate: false
+  xy: 2015, 1152
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+ui/toggle-btn-highlight/highlight-edge
+  rotate: true
+  xy: 708, 788
+  size: 16, 5
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+xp-coin/xp-coin-small
+  rotate: false
+  xy: 1578, 2417
+  size: 71, 71
+  orig: 71, 71
+  offset: 0, 0
+  index: -1
