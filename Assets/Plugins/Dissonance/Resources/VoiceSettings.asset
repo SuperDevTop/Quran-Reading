@@ -15,14 +15,14 @@ MonoBehaviour:
   _quality: 2
   _frameSize: 1
   _forwardErrorCorrection: 1
-  _denoiseAmount: 3
+  _denoiseAmount: 2
   _bgSoundRemovalEnabled: 1
-  _bgSoundRemovalAmount: 0.7
-  _vadSensitivity: 1
-  _aecAmount: 2
+  _bgSoundRemovalAmount: 0.3
+  _vadSensitivity: 2
+  _aecAmount: 1
   _aecDelayAgnostic: 1
   _aecExtendedFilter: 1
   _aecRefinedAdaptiveFilter: 1
-  _aecmRoutingMode: 4
+  _aecmRoutingMode: 3
   _aecmComfortNoise: 1
-  _voiceDuckLevel: 0.4466836
+  _voiceDuckLevel: 0.5

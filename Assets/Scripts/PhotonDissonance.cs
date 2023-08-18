@@ -16,7 +16,6 @@ using UnityEngine.Android;
 
 public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
 {   
-    public static PhotonMulti Instance;
     [SerializeField] private GameObject kickDialog;
     public GameObject[] roomList;
     List<RoomInfo> rooms = new List<RoomInfo>();

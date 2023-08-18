@@ -57,9 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Dissonance\Integrations\Offline\Editor\OfflineCommsNetworkEditor.cs" />
-    <Compile Include="Assets\Agora-RTC-Plugin\API-Example\Editor\CommandBuild.cs" />
     <Compile Include="Assets\Dissonance\Integrations\PhotonUnityNetworking2\Editor\PhotonCommsNetworkEditor.cs" />
-    <Compile Include="Assets\Agora-RTC-Plugin\Agora-Unity-RTC-SDK\Editor\BL_BuildPostProcess.cs" />
     <Compile Include="Assets\Dissonance\Integrations\PhotonUnityNetworking2\Editor\PhotonPlayerEditor.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\Editor\ChatEditor.cs" />
   </ItemGroup>
