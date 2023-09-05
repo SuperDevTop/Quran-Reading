@@ -17,11 +17,10 @@ using UnityEngine.Android;
 public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
 {   
     [SerializeField] private GameObject kickDialog;
+    [SerializeField] private Text alertText;
     public GameObject[] roomList;
     List<RoomInfo> rooms = new List<RoomInfo>();
     private string kickUsername = "";
-    private string roomId = "";
-    private int kickAgreeNum;
     string selectedRoom = "";
     string gameVersion = "1";
     private bool isConnectedFirst = false;
@@ -30,12 +29,14 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
     private DissonanceComms _comms;
     RoomMembership rMembership;
 
+    //private int kickAgreeNum;
     //public string testvalue;
 
     private void Awake()
     {
         //Instance = this;
         //PhotonNetwork.AutomaticallySyncScene = true;
+        Advertisements.Instance.Initialize();
     }
 
     void Start()
@@ -85,7 +86,23 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
 
     public void CreateBtnClick()
     {
+        string roomName = MainUI.Instance.userAvatarName.text + "#" + MainUI.CreateRandomNumber();
+
+        if (EventSystem.current.currentSelectedGameObject.name == "AllBtn")
+        {
+            roomName += "???All";
+        }
+        else if(EventSystem.current.currentSelectedGameObject.name == "MaleBtn")
+        {
+            roomName += "???Male";
+        }
+        else
+        {
+            roomName += "???Female";
+        }                
+        
         MainUI.Instance.loadingUI.SetActive(true);
+        MainUI.Instance.genderSelection.SetActive(false);
 
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.IsOpen = true;
@@ -98,7 +115,7 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         //roomOptions.EmptyRoomTtl = 500;
         PhotonNetwork.KeepAliveInBackground = 60000;
 
-        PhotonNetwork.CreateRoom(MainUI.Instance.userAvatarName.text + MainUI.CreateRandomNumber(), roomOptions, TypedLobby.Default);
+        PhotonNetwork.CreateRoom(roomName, roomOptions, TypedLobby.Default);
         PhotonNetwork.NickName = MainUI.Instance.userAvatarName.text + "#" + PlayerPrefs.GetInt("GENDER") + "#" + PlayerPrefs.GetInt("AVATAR_INDEX");
 
         MainUI.Instance.roomAvatar[0].transform.GetChild(0).GetComponent<Text>().text = PhotonNetwork.NickName.Split("#")[0];
@@ -109,9 +126,20 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
     public void RoomlistClick()
     {
         selectedRoom = EventSystem.current.currentSelectedGameObject.transform.GetChild(0).GetComponent<Text>().text;
-        PhotonNetwork.JoinRoom(selectedRoom);
-        PhotonNetwork.NickName = MainUI.Instance.userAvatarName.text + "#" + PlayerPrefs.GetInt("GENDER") + "#" + PlayerPrefs.GetInt("AVATAR_INDEX");
-        MainUI.Instance.loadingUI.SetActive(true);
+        string genderStr = EventSystem.current.currentSelectedGameObject.transform.GetChild(1).GetComponent<Text>().text;
+        selectedRoom += "???" + genderStr;
+
+        if(genderStr == "All" || genderStr == "Male" && PlayerPrefs.GetInt("GENDER") == 0
+            || genderStr == "Female" && PlayerPrefs.GetInt("GENDER") == 1)
+        {
+            PhotonNetwork.JoinRoom(selectedRoom);
+            PhotonNetwork.NickName = MainUI.Instance.userAvatarName.text + "#" + PlayerPrefs.GetInt("GENDER") + "#" + PlayerPrefs.GetInt("AVATAR_INDEX");
+            MainUI.Instance.loadingUI.SetActive(true);
+        }
+        else
+        {
+            StartCoroutine(DelayToShowAlert("You can't join this room."));
+        }        
     }
 
     public void LeaveRoomBtnClick()
@@ -126,15 +154,23 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
 
     public void ClickPlayerAvatar()
     {
-        //kickUsername = EventSystem.current.currentSelectedGameObject.transform.GetChild(0).GetComponent<Text>().text;
-        //kickDialog.SetActive(true);
-        //kickDialog.transform.GetChild(1).GetComponent<Text>().text = "Do you agree to kick " + kickUsername + "?";
+        if (PhotonNetwork.IsMasterClient)
+        {
+            kickUsername = EventSystem.current.currentSelectedGameObject.transform.GetChild(0).GetComponent<Text>().text;
+            Sprite tempSprite = EventSystem.current.currentSelectedGameObject.transform.GetChild(1).GetChild(0).GetComponent<Image>().sprite;
+
+            if (tempSprite != MainUI.Instance.defaultAvatar && kickUsername != "Open")
+            {
+                kickDialog.SetActive(true);
+                kickDialog.transform.GetChild(1).GetComponent<Text>().text = "Do you agree to kick " + kickUsername + "?";
+            }
+        }
     }
 
     public void KickBtnClick()
     {
         kickDialog.SetActive(false);
-        kickAgreeNum = 0;
+        //kickAgreeNum = 0;
         SyncKickPlayer(new object[] { kickUsername });
     }
 
@@ -176,7 +212,8 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         for (int i = 0; i < rooms.Count; i++)
         {
             roomList[i].SetActive(true);
-            roomList[i].transform.GetChild(0).GetComponent<Text>().text = rooms[i].Name;
+            roomList[i].transform.GetChild(0).GetComponent<Text>().text = rooms[i].Name.Split("???")[0];
+            roomList[i].transform.GetChild(1).GetComponent<Text>().text = rooms[i].Name.Split("???")[1];
 
             if (string.Equals(selectedRoom, roomList[i].transform.GetChild(0).GetComponent<Text>().text))
             {
@@ -248,6 +285,8 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         MainUI.Instance.loadingUI.SetActive(false);
         MainUI.Instance.onlineUI.SetActive(false);
         MainUI.Instance.roomUI.SetActive(true);
+
+        ShowInterstitial();
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomLists)
@@ -334,12 +373,39 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         else if (eventCode == 2)
         {
             object[] infos = (object[])photonEvent.CustomData;
-            kickAgreeNum = 0;
+            string kickName = (string)infos[0];
 
-            kickDialog.SetActive(true);
-            kickUsername = (string)infos[0];
-            kickDialog.transform.GetChild(1).GetComponent<Text>().text = "Do you agree to kick " + kickUsername + "?";
+            if (PhotonNetwork.NickName.Split("#")[0] == kickName)
+            {
+                LeaveRoomBtnClick();
+            }            
         }
+    }
+
+    IEnumerator DelayToShowAlert(string str)
+    {
+        alertText.text = str;
+        alertText.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(3f);
+
+        alertText.gameObject.SetActive(false);
+    }
+
+    // integrate ads
+    public void ShawBanner()
+    {
+        Advertisements.Instance.ShowBanner(BannerPosition.BOTTOM);
+    }
+
+    public void HideBanner()
+    {
+        Advertisements.Instance.HideBanner();
+    }
+
+    public void ShowInterstitial()
+    {
+        Advertisements.Instance.ShowInterstitial();
     }
 
     void OnApplicationQuit()

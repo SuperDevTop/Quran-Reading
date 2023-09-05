@@ -12,23 +12,23 @@ public class MainUI : MonoBehaviour
     public GameObject onlineUI;
     public GameObject roomUI;
     public GameObject loadingUI;
-    public GameObject userAvatar;
-    //public GameObject micOnBtn;
-    //public GameObject micOffBtn;
-    public Sprite defaultAvatar;
+    public GameObject userAvatar;    
     public GameObject[] roomAvatar;
+    public GameObject genderSelection;
     [SerializeField] private GameObject userSettingsUI;
     [SerializeField] private GameObject avatarImages;
-    [SerializeField] private GameObject avatarImageSettings;    
+    [SerializeField] private GameObject avatarImageSettings;
+    public Sprite defaultAvatar;
+    public Sprite[] maleAvatars;
+    public Sprite[] femaleAvatars;
     public Text userAvatarName;
     [SerializeField] private InputField inputUsername;
     [SerializeField] private Dropdown selectGender;
-    public Sprite[] maleAvatars;
-    public Sprite[] femaleAvatars;
-
+    
     void Awake()
     {
         Instance = this;
+        Advertisements.Instance.Initialize();
     }
 
     void Start()
@@ -115,5 +115,5 @@ public class MainUI : MonoBehaviour
         tempRandom = Random.Range(2000, 8000) + System.DateTime.Now.Millisecond % 1000;
 
         return tempRandom;
-    }
+    }    
 }
