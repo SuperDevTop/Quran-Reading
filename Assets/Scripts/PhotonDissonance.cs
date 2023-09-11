@@ -17,6 +17,9 @@ using UnityEngine.Android;
 public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
 {   
     [SerializeField] private GameObject kickDialog;
+    [SerializeField] private GameObject micOnBtn;
+    [SerializeField] private GameObject micOffBtn;
+    [SerializeField] private GameObject dissonanceSettings;
     [SerializeField] private Text alertText;
     public GameObject[] roomList;
     List<RoomInfo> rooms = new List<RoomInfo>();
@@ -36,13 +39,20 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
     {
         //Instance = this;
         //PhotonNetwork.AutomaticallySyncScene = true;
-        Advertisements.Instance.Initialize();
+        if (Advertisements.Instance.UserConsentWasSet())
+        {
+            Advertisements.Instance.Initialize();
+        }
+        else
+        {
+            Advertisements.Instance.Initialize();
+        }
     }
 
     void Start()
     {
         isJoinedChannel = false;
-        _comms = FindObjectOfType<DissonanceComms>();    
+        _comms = FindObjectOfType<DissonanceComms>();
     }
 
     void Update()
@@ -150,6 +160,9 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         PhotonNetwork.JoinLobby(TypedLobby.Default);
 
         _comms.Rooms.Leave(rMembership);
+
+        StartCoroutine(ShowingBanner());
+        ShowInterstitial();
     }
 
     public void ClickPlayerAvatar()
@@ -172,6 +185,20 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         kickDialog.SetActive(false);
         //kickAgreeNum = 0;
         SyncKickPlayer(new object[] { kickUsername });
+    }
+
+    public void MicOnClick()
+    {
+        micOffBtn.SetActive(false);
+        micOnBtn.SetActive(true);
+        dissonanceSettings.GetComponent<VoiceBroadcastTrigger>().IsMuted = false;
+    }
+
+    public void MicOffClick()
+    {
+        micOnBtn.SetActive(false);
+        micOffBtn.SetActive(true);
+        dissonanceSettings.GetComponent<VoiceBroadcastTrigger>().IsMuted = true;
     }
 
     public void RefreshRoomList()
@@ -265,7 +292,7 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         if (!isConnectedFirst && isConnecting)
         {
             RefreshRoomList();
-        }
+        }        
     }
 
     public override void OnJoinedRoom()
@@ -286,7 +313,9 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         MainUI.Instance.onlineUI.SetActive(false);
         MainUI.Instance.roomUI.SetActive(true);
 
-        ShowInterstitial();
+        micOffBtn.SetActive(false);
+        micOnBtn.SetActive(true);
+        dissonanceSettings.GetComponent<VoiceBroadcastTrigger>().IsMuted = false;
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomLists)
@@ -390,6 +419,15 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         yield return new WaitForSeconds(3f);
 
         alertText.gameObject.SetActive(false);
+    }
+
+    IEnumerator ShowingBanner()
+    {
+        ShawBanner();
+
+        yield return new WaitForSeconds(3f);
+
+        HideBanner();
     }
 
     // integrate ads

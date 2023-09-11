@@ -67,7 +67,7 @@ public class Implementation : MonoBehaviour
         }
         else
         {
-            intersttialButton.interactable = false;
+            intersttialButton.interactable = false;     
         }
 
         if (Advertisements.Instance.IsRewardVideoAvailable())

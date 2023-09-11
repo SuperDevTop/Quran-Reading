@@ -27,8 +27,7 @@ public class MainUI : MonoBehaviour
     
     void Awake()
     {
-        Instance = this;
-        Advertisements.Instance.Initialize();
+        Instance = this;    
     }
 
     void Start()
