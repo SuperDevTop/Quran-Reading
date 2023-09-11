@@ -15,7 +15,7 @@ D:/Tasks/Mahmoud/Project/Quran Reading
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56302
+56099
 Successfully changed project path to: D:/Tasks/Mahmoud/Project/Quran Reading
 D:/Tasks/Mahmoud/Project/Quran Reading
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Tasks/Mahmoud/Project/Quran Reading
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7664] Host "[IP] 192.168.133.155 [Port] 0 [Flags] 2 [Guid] 4172148117 [EditorId] 4172148117 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHAI72N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15860] Host "[IP] 192.168.133.155 [Port] 0 [Flags] 2 [Guid] 2194070176 [EditorId] 2194070176 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHAI72N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7664] Host "[IP] 192.168.133.155 [Port] 0 [Flags] 2 [Guid] 4172148117 [EditorId] 4172148117 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHAI72N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15860] Host "[IP] 192.168.133.155 [Port] 0 [Flags] 2 [Guid] 2194070176 [EditorId] 2194070176 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DHAI72N) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 23.68 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.80 ms.
+Refreshing native plugins compatible for Editor in 29.66 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.01 ms.
 Initialize engine version: 2022.3.5f1 (9674261d40ee)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Tasks/Mahmoud/Project/Quran Reading/Assets
@@ -69,53 +69,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011510 seconds.
-- Loaded All Assemblies, in  0.452 seconds
+Registered in 0.006871 seconds.
+- Loaded All Assemblies, in  0.384 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 303 ms
+Android Extension - Scanning For ADB Devices 275 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.765 seconds
-Domain Reload Profiling: 1216ms
-	BeginReloadAssembly (107ms)
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1053ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (202ms)
-		LoadAssemblies (105ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (87ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (195ms)
-				TypeCache.ScanAssembly (179ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (766ms)
+	FinalizeReload (671ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (676ms)
+		SetupLoadedEditorAssemblies (605ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (468ms)
+			InitializePlatformSupportModulesInManaged (427ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (129ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (124ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,54 +125,54 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Tasks\Mahmoud\Project\Quran Reading\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Tasks\Mahmoud\Project\Quran Reading\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.906 seconds
-Refreshing native plugins compatible for Editor in 8.93 ms, found 6 plugins.
+- Loaded All Assemblies, in  0.698 seconds
+Refreshing native plugins compatible for Editor in 7.69 ms, found 6 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.791 seconds
-Domain Reload Profiling: 1697ms
-	BeginReloadAssembly (155ms)
+- Finished resetting the current domain, in  0.625 seconds
+Domain Reload Profiling: 1322ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (665ms)
-		LoadAssemblies (393ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (293ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (342ms)
-			TypeCache.Refresh (313ms)
-				TypeCache.ScanAssembly (299ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (792ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (229ms)
+				TypeCache.ScanAssembly (218ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (625ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (587ms)
+		SetupLoadedEditorAssemblies (456ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (39ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (408ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (310ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 18.45 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 4705 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 167 unused Assets / (112.5 KB). Loaded Objects now: 5092.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 11.90 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 4706 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 168 unused Assets / (113.1 KB). Loaded Objects now: 5092.
 Memory consumption went from 161.8 MB to 161.7 MB.
-Total: 5.079400 ms (FindLiveObjects: 0.563100 ms CreateObjectMapping: 0.142800 ms MarkObjects: 3.971100 ms  DeleteObjects: 0.400200 ms)
+Total: 3.614500 ms (FindLiveObjects: 0.498800 ms CreateObjectMapping: 0.158100 ms MarkObjects: 2.744200 ms  DeleteObjects: 0.212400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,67 +186,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 185044.837353 seconds.
-  path: Assets/Plugins/iOS
-  artifactKey: Guid(2a105c3c09b6e7944adc3352d600e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/iOS using Guid(2a105c3c09b6e7944adc3352d600e904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c4fa343d100437b79f25dfdf2180ddb') in 0.002655 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.983697 seconds.
-  path: Assets/Plugins/iOS/GADUAdNetworkExtras.h
-  artifactKey: Guid(1c0d8a6c9b36440eaa4c01518670217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/iOS/GADUAdNetworkExtras.h using Guid(1c0d8a6c9b36440eaa4c01518670217f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb50e9d72e59e0420dfda1cd362363cf') in 0.007171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 4.914222 seconds.
-  path: Assets/Plugins/iOS/unity-plugin-library.a
-  artifactKey: Guid(3fbd85863e7246c8b9de13243cc83b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/iOS/unity-plugin-library.a using Guid(3fbd85863e7246c8b9de13243cc83b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd6345fab8bfdffc71ba374e523779b') in 0.001250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.044077 seconds.
-  path: Assets/Plugins/Dissonance/DissonanceVoip.asmdef
-  artifactKey: Guid(61106e8dfb7a4e64a96af0eccfe1209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Dissonance/DissonanceVoip.asmdef using Guid(61106e8dfb7a4e64a96af0eccfe1209f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccb0bd9cedf7addc93f47e628c16e4b') in 0.000488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 6.438377 seconds.
-  path: Assets/Plugins/Dissonance/Plugins
-  artifactKey: Guid(c6eaf03508153684095fee16781dd13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Dissonance/Plugins using Guid(c6eaf03508153684095fee16781dd13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917de56b247ff2ed3ceaf7fb6850ba1b') in 0.000488 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.903281 seconds.
-  path: Assets/Plugins/Dissonance/Plugins/iOS
-  artifactKey: Guid(eb099129f392d804b99ecfb0719e9573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Dissonance/Plugins/iOS using Guid(eb099129f392d804b99ecfb0719e9573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0908de63ad4418876f77aaa75b0f76') in 0.000626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.158949 seconds.
-  path: Assets/Plugins/Dissonance/Plugins/iOS/libAudioPluginDissonance.a
-  artifactKey: Guid(b9cc8315d75bd4257b396d2da80501ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Dissonance/Plugins/iOS/libAudioPluginDissonance.a using Guid(b9cc8315d75bd4257b396d2da80501ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4674d88a7cbda23fa482166dfb2d3db6') in 0.001076 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 23.008683 seconds.
-  path: Assets/Plugins/Dissonance/Plugins/iOS/libopus.a
-  artifactKey: Guid(65c5f458f10854ec8815624f56464eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Dissonance/Plugins/iOS/libopus.a using Guid(65c5f458f10854ec8815624f56464eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422b9a424b5c1041266691e7bf4bf232') in 0.001031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
