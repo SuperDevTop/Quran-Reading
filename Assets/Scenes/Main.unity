@@ -9332,9 +9332,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "These terms and conditions (the \"Terms and Conditions\") govern the use
     of Quran reading live (the \"Site\"). This Site is owned and operated by specialty
-    exam.\nThis Site is a communication live.\r By using this Site, you indicate
-    that you have read and understand these Terms and Conditions and agree to abide
-    by them at all times.\nYou can check furthur details here.\nhttps://games0105.com/terms-conditions"
+    exam. This Site is a communication live.\r By using this Site, you indicate that
+    you have read and understand these Terms and Conditions and agree to abide by
+    them at all times.\nNo tolerance for objectionable user or abusive contents which
+    can be found on this link.\nhttps://games0105.com/terms-conditions"
 --- !u!222 &1503545069
 CanvasRenderer:
   m_ObjectHideFlags: 0
