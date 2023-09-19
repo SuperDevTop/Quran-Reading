@@ -8,6 +8,9 @@ public class MainUI : MonoBehaviour
 {
     public static MainUI Instance;
     [SerializeField] private GameObject mainUI;
+    [SerializeField] private GameObject termsUI;
+    [SerializeField] private Toggle termsCheck;
+    [SerializeField] private Button termsBtn;
     public GameObject firstUI;
     public GameObject onlineUI;
     public GameObject roomUI;
@@ -33,11 +36,33 @@ public class MainUI : MonoBehaviour
     void Start()
     {
         InitiateParameters();
+
+        if(PlayerPrefs.GetInt("TERMS") != 0)
+        {
+            termsUI.SetActive(false);
+            firstUI.SetActive(true);
+        }
     }
 
     void Update()
     {
         mainUI.transform.localScale = new Vector3(Screen.width / 1440f, Screen.height / 720f, 1f);
+
+        if (termsCheck.isOn)
+        {
+            termsBtn.interactable = true;
+        }
+        else
+        {
+            termsBtn.interactable = false;
+        }
+    }
+
+    public void StartBtnClick()
+    {
+        termsUI.SetActive(false);
+        firstUI.SetActive(true);
+        PlayerPrefs.SetInt("TERMS", 1);
     }
 
     public void InitiateParameters()
