@@ -316,6 +316,12 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         micOffBtn.SetActive(false);
         micOnBtn.SetActive(true);
         dissonanceSettings.GetComponent<VoiceBroadcastTrigger>().IsMuted = false;
+
+        if (PhotonNetwork.IsMasterClient)
+        {
+            StartCoroutine(ShowingBanner());
+            ShowInterstitial();
+        }
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomLists)
