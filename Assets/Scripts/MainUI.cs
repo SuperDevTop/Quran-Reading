@@ -27,6 +27,7 @@ public class MainUI : MonoBehaviour
     public Text userAvatarName;
     [SerializeField] private InputField inputUsername;
     [SerializeField] private Dropdown selectGender;
+    [SerializeField] private AudioSource inSound;
     
     void Awake()
     {
