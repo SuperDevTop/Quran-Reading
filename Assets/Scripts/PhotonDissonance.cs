@@ -9,6 +9,8 @@ using ExitGames.Client.Photon;
 using UnityEngine.Networking;
 using Dissonance;
 using Dissonance.Networking;
+using VoxelBusters.CoreLibrary;
+using VoxelBusters.EssentialKit;
 
 #if (UNITY_2018_3_OR_NEWER && UNITY_ANDROID)
 using UnityEngine.Android;
@@ -32,6 +34,14 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
     private DissonanceComms _comms;
     RoomMembership rMembership;
 
+    // Deeplink
+    public static PhotonDissonance Instance { get; private set; }
+    public string deeplinkURL;
+    public string inviteStr;
+    public bool isInvited;
+
+    //public Text testText;
+
     //private int kickAgreeNum;
     //public string testvalue;
 
@@ -47,6 +57,24 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         {
             Advertisements.Instance.Initialize();
         }
+
+        // Deeplink
+        if (Instance == null)
+        {          
+            Application.deepLinkActivated += onDeepLinkActivated;
+
+            if (!string.IsNullOrEmpty(Application.absoluteURL))
+            {
+                // Cold start and Application.absoluteURL not null so process Deep Link.
+                onDeepLinkActivated(Application.absoluteURL);
+            }
+            // Initialize DeepLink Manager global variable.
+            else deeplinkURL = "[none]";
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Start()
@@ -60,6 +88,53 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         CheckPermissions();
     }
 
+    // Social sharing
+    public void SocialInvitation()
+    {
+        ShareSheet shareSheet = ShareSheet.CreateInstance();
+
+        if (PhotonNetwork.CurrentRoom.Name.Split("???")[1] == "All")
+        {
+            shareSheet.AddText("Invite everybody");
+        }
+        else if (PhotonNetwork.CurrentRoom.Name.Split("???")[1] == "Male")
+        {
+            shareSheet.AddText("Invite men");
+        }
+        else
+        {
+            shareSheet.AddText("Invite women");
+        }
+
+        shareSheet.AddURL(URLString.URLWithPath("app.quranreadinglive.com???" + PhotonNetwork.CurrentRoom.Name));        
+        shareSheet.SetCompletionCallback((result, error) => {
+            Debug.Log("Share Sheet was closed. Result code: " + result.ResultCode);
+        });
+        shareSheet.Show();
+    }
+
+    // Deeplink activate
+    private void onDeepLinkActivated(string url)
+    {
+        // Update DeepLink Manager global variable, so URL can be accessed from anywhere.
+        deeplinkURL = url;
+
+        // Decode the URL to determine action. 
+        // In this example, the application expects a link formatted like this:
+        // unitydl://mylink?scene1
+        inviteStr = url.Split("???")[1] + "???" + url.Split("???")[2];
+        //testText.text = inviteStr;
+
+        if(inviteStr != "")
+        {
+            isInvited = true;
+            MainUI.Instance.onlineBtn.gameObject.SetActive(false);
+
+            Connect();
+        }        
+    }
+
+    // Photon networks
     void ConnectToRegion()
     {
         AppSettings regionSettings = new()
@@ -131,6 +206,8 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         MainUI.Instance.roomAvatar[0].transform.GetChild(0).GetComponent<Text>().text = PhotonNetwork.NickName.Split("#")[0];
         MainUI.Instance.roomAvatar[0].transform.GetChild(1).GetChild(0).GetComponent<Image>().sprite =
             MainUI.Instance.userAvatar.GetComponent<Image>().sprite;
+
+        print(roomName);
     }
 
     public void RoomlistClick()
@@ -154,15 +231,18 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
 
     public void LeaveRoomBtnClick()
     {
+        isInvited = false;
         MainUI.Instance.roomUI.SetActive(false);
         MainUI.Instance.onlineUI.SetActive(true);
         PhotonNetwork.LeaveRoom();
-        PhotonNetwork.JoinLobby(TypedLobby.Default);
+        PhotonNetwork.JoinLobby(TypedLobby.Default);        
 
         _comms.Rooms.Leave(rMembership);
 
         StartCoroutine(ShowingBanner());
         ShowInterstitial();
+
+        RefreshRoomList();
     }
 
     public void ClickPlayerAvatar()
@@ -289,10 +369,34 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
     {
         print("Joined Lobby");
 
-        if (!isConnectedFirst && isConnecting)
+        if (isInvited)
         {
-            RefreshRoomList();
-        }        
+            string genderStr = inviteStr.Split("???")[1];         
+
+            if (genderStr == "All" || genderStr == "Male" && PlayerPrefs.GetInt("GENDER") == 0
+                || genderStr == "Female" && PlayerPrefs.GetInt("GENDER") == 1)
+            {
+                PhotonNetwork.JoinRoom(inviteStr);
+                PhotonNetwork.NickName = MainUI.Instance.userAvatarName.text + "#" + PlayerPrefs.GetInt("GENDER") + "#" + PlayerPrefs.GetInt("AVATAR_INDEX");
+                MainUI.Instance.loadingUI.SetActive(true);
+            }
+            else
+            {
+                MainUI.Instance.loadingUI.SetActive(false);
+                MainUI.Instance.onlineUI.SetActive(true);
+                StartCoroutine(DelayToShowAlert("You can't join this room."));
+            }
+        }
+        else
+        {
+            MainUI.Instance.loadingUI.SetActive(false);
+            MainUI.Instance.onlineUI.SetActive(true);
+
+            if (!isConnectedFirst && isConnecting)
+            {
+                RefreshRoomList();
+            }
+        }                    
     }
 
     public override void OnJoinedRoom()
@@ -322,6 +426,17 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
             StartCoroutine(ShowingBanner());
             ShowInterstitial();
         }
+    }
+
+    public override void OnJoinRoomFailed(short returnCode, string message)
+    {
+        print("Failed to join room: " + message);
+        isInvited = false;
+        PhotonNetwork.LeaveRoom();
+        PhotonNetwork.JoinLobby(TypedLobby.Default);
+        StartCoroutine(DelayToShowAlert("You can't join room"));
+        MainUI.Instance.loadingUI.SetActive(false);
+        MainUI.Instance.onlineUI.SetActive(true);
     }
 
     public override void OnRoomListUpdate(List<RoomInfo> roomLists)
@@ -417,6 +532,7 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
         }
     }
 
+    // UI elements   
     IEnumerator DelayToShowAlert(string str)
     {
         alertText.text = str;

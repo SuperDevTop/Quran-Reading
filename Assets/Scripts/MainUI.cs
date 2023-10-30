@@ -9,8 +9,10 @@ public class MainUI : MonoBehaviour
     public static MainUI Instance;
     [SerializeField] private GameObject mainUI;
     [SerializeField] private GameObject termsUI;
+    [SerializeField] private GameObject exitDialog;
     [SerializeField] private Toggle termsCheck;
     [SerializeField] private Button termsBtn;
+    public Button onlineBtn;
     public GameObject firstUI;
     public GameObject onlineUI;
     public GameObject roomUI;
@@ -56,6 +58,11 @@ public class MainUI : MonoBehaviour
         else
         {
             termsBtn.interactable = false;
+        }
+
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            exitDialog.SetActive(true);
         }
     }
 
@@ -140,5 +147,10 @@ public class MainUI : MonoBehaviour
         tempRandom = Random.Range(2000, 8000) + System.DateTime.Now.Millisecond % 1000;
 
         return tempRandom;
-    }    
+    } 
+    
+    public void ExitApp()
+    {
+        Application.Quit();
+    }
 }
