@@ -29,15 +29,15 @@ namespace VoxelBusters.EssentialKit
 
         #region Static methods
 
-        public static void Initialize(NativeUIUnitySettings settings)
+        public static void Initialize(NativeUIUnitySettings settings, bool overrideAvailability = false)
         {
             Assert.IsArgNotNull(settings, nameof(settings));
 
             // Set properties
-            UnitySettings           = settings;
+            UnitySettings = settings;
 
             // Configure interface
-            s_nativeInterface       = NativeFeatureActivator.CreateInterface<INativeUIInterface>(ImplementationSchema.NativeUI, settings.IsEnabled);
+            s_nativeInterface = NativeFeatureActivator.CreateInterface<INativeUIInterface>(ImplementationSchema.NativeUI, settings.IsEnabled || overrideAvailability);
         }
 
         /// <summary>

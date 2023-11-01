@@ -169,7 +169,7 @@ namespace VoxelBusters.CoreLibrary
                 allowedLogLevel = DefaultLogLevel;
             }
 
-            return false;//(level < allowedLogLevel);
+            return (level < allowedLogLevel);
         }
 
         #endregion

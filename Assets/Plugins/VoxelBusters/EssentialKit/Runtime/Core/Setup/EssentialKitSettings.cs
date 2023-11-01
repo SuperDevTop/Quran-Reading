@@ -54,7 +54,7 @@ namespace VoxelBusters.EssentialKit
             {
                 return new UnityPackageDefinition(name: "com.voxelbusters.essentialkit",
                                                   displayName: "Essential Kit - Free Version",
-                                                  version: "2.7.0",
+                                                  version: "2.7.1",
                                                   defaultInstallPath: $"Assets/Plugins/VoxelBusters/EssentialKit",
                                                   dependencies: CoreLibrarySettings.Package);
             });

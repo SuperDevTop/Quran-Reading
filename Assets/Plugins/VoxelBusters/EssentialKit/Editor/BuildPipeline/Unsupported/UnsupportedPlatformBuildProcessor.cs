@@ -32,7 +32,7 @@ namespace VoxelBusters.EssentialKit.Editor.Build
             {
                 string  name        = current.Key;
                 var     config      = current.Value;
-                writer.AddConfiguration(name, config, platform);
+                writer.AddConfiguration(name, config, platform, useFallbackPackage: !Settings.IsFeatureUsed(name));
             }
         }
 

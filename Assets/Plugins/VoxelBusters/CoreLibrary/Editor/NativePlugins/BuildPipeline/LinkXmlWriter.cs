@@ -64,12 +64,12 @@ namespace VoxelBusters.CoreLibrary.Editor.NativePlugins.Build
             return targetDefinition;
         }
 
-        public void AddConfiguration(string name, NativeFeatureRuntimeConfiguration runtimeConfiguration, RuntimePlatform platform)
+        public void AddConfiguration(string name, NativeFeatureRuntimeConfiguration runtimeConfiguration, RuntimePlatform platform, bool useFallbackPackage/* = false*/)
         {
             var     packageConfiguration    = runtimeConfiguration.GetPackageForPlatform(platform);
-            if (packageConfiguration == null)
+            if (packageConfiguration == null || useFallbackPackage)
             {
-                DebugLogger.LogWarning(CoreLibraryDomain.Default, $"Configuration not found for: {name}.");
+                DebugLogger.LogWarning(CoreLibraryDomain.Default, $"Using fallback configuration for : {name}.");
                 var     fallbackConfiguration   = runtimeConfiguration.FallbackPackage;
                 AddRequiredType(fallbackConfiguration.Assembly, fallbackConfiguration.NativeInterfaceType);
             }

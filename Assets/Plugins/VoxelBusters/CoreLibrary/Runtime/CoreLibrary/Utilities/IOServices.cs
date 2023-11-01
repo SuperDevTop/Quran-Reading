@@ -151,9 +151,19 @@ namespace VoxelBusters.CoreLibrary
 
         public static bool IsSubDirectory(string parent, string path)
         {
-            var     parentUri   = new Uri(parent);
-            var     childUri    = new Uri(Path.GetDirectoryName(path));
+            var parentUri = new Uri(GetUriSafePath(parent));
+            var     childUri    = new Uri(GetUriSafePath(Path.GetDirectoryName(path)));
             return (parentUri != childUri) && parentUri.IsBaseOf(childUri);
+        }
+
+        private static string GetUriSafePath(string path)
+        {
+            if(IsDirectory(path))
+            {
+                return Path.Combine(path, $"{Path.PathSeparator}");
+            }
+
+            return path;
         }
 
         public static string GetUniquePath(string path)

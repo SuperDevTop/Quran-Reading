@@ -413,6 +413,9 @@ namespace VoxelBusters.CoreLibrary.Editor.NativePlugins.Build.Xcode
                 {
                     item.OnUpdateInfoPlist(plistDoc);
                 });
+
+            // Save changes
+            plistDoc.WriteToFile(plistPath);
         }
 
         private void UpdateProjectCapabilities()

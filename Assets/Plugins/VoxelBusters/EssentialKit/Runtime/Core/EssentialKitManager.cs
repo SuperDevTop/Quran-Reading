@@ -38,7 +38,7 @@ namespace VoxelBusters.EssentialKit
             // Initialize required features
             AddressBook.Initialize(settings.AddressBookSettings);
             NetworkServices.Initialize(settings.NetworkServicesSettings);
-            NativeUI.Initialize(settings.NativeUISettings);
+            NativeUI.Initialize(settings.NativeUISettings, overrideAvailability: settings.IsFeatureUsed(NativeFeatureType.kNativeUI));
             SharingServices.Initialize(settings.SharingServicesSettings);
             Utilities.Initialize();            
             if (settings.ApplicationSettings.RateMyAppSettings.IsEnabled)

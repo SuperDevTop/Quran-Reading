@@ -15,13 +15,13 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Android
 {
     public class EssentialKitAndroidNativePluginsProcessor : VoxelBusters.CoreLibrary.Editor.NativePlugins.Build.Android.AndroidNativePluginsProcessor
     {
-        #region Properties
+#region Properties
 
         private EssentialKitSettings Settings { get; set; }
 
-        #endregion
+#endregion
 
-        #region Overriden methods
+#region Overriden methods
 
         public override void OnCheckConfiguration()
         {
@@ -56,7 +56,7 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Android
             {
                 string name = current.Key;
                 var config = current.Value;
-                writer.AddConfiguration(name, config, platform);
+                writer.AddConfiguration(name, config, platform, useFallbackPackage: !Settings.IsFeatureUsed(name));
             }
         }
 
@@ -96,9 +96,9 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Android
                 return;
         }
 
-        #endregion
+#endregion
 
-        #region Helper methods
+#region Helper methods
 
         private bool EnsureInitialized()
         {
@@ -141,7 +141,7 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Android
             xml.Save(EssentialKitPackageLayout.AndroidProjectResValuesStringsPath);
         }
 
-        #endregion
+#endregion
     }
 }
 #endif

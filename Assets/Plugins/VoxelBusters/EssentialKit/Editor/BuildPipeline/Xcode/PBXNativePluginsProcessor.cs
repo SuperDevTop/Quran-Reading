@@ -25,13 +25,13 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Xcode
 {
     public class PBXNativePluginsProcessor : CoreLibrary.Editor.NativePlugins.Build.Xcode.PBXNativePluginsProcessor
     {
-        #region Properties
+#region Properties
 
         private EssentialKitSettings Settings { get; set; }
 
-        #endregion
+#endregion
 
-        #region Base class methods
+#region Base class methods
 
         public override void OnUpdateExporterObjects()
         {
@@ -73,7 +73,7 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Xcode
                 {
                     string  name    = current.Key;
                     var     config  = current.Value;
-                    writer.AddConfiguration(name, config, platform);
+                    writer.AddConfiguration(name, config, platform, useFallbackPackage: !Settings.IsFeatureUsed(name));
                 }
             }
         }
@@ -138,9 +138,9 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Xcode
             }
         }
 
-        #endregion
+#endregion
 
-        #region Private methods
+#region Private methods
 
         private bool EnsureInitialised()
         {
@@ -167,6 +167,8 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Xcode
             foreach (var item in ImplementationSchema.GetAllRuntimeConfigurations())
             {
                 if (Settings.IsFeatureUsed(item.Key)) continue;
+
+                if (item.Key.Equals(NativeFeatureType.kExtras)) continue;
 
                 var     runtimePackage  = item.Value.GetPackageForPlatform(targetPlatform);
                 foreach (var bindingType in runtimePackage.GetBindingTypeReferences())
@@ -228,7 +230,7 @@ namespace VoxelBusters.EssentialKit.Editor.Build.Xcode
         {
         }
 
-        #endregion
+#endregion
     }
 }
 #endif
