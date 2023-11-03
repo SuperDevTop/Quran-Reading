@@ -108,7 +108,6 @@
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\VisualScriptingSupport\PlayMakerSupport\Actions\HideBanner.cs" />
     <Compile Include="Assets\Dissonance\Integrations\PhotonUnityNetworking2\Demo\PlayerSpawner.cs" />
     <Compile Include="Assets\Dissonance\Core\Jetbrains.cs" />
-    <Compile Include="Assets\Scripts\AppleBuildPostProcess.cs" />
     <Compile Include="Assets\Dissonance\Integrations\PhotonUnityNetworking2\PhotonPlayer.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\Advertisements.cs" />
     <Compile Include="Assets\GleyPlugins\Ads\Scripts\SupportedAdvertisers\CustomAppLovin.cs" />

@@ -41,9 +41,9 @@ namespace VoxelBusters.CoreLibrary
             Assert.IsFalse(path.StartsWith("file"), "Input value is not http path.");
 
             // format value if required
-            if (false == path.StartsWith("http"))
+            if (false == path.StartsWith("quran"))
             {
-                path = string.Concat("http://", path);
+                path = string.Concat("https://", path);
             }
 
             return new URLString() { m_value = path, IsValid = true };
