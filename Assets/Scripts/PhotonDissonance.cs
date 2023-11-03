@@ -106,7 +106,7 @@ public class PhotonDissonance : MonoBehaviourPunCallbacks, IOnEventCallback
             shareSheet.AddText("Invite women");
         }
 
-        shareSheet.AddURL(URLString.URLWithPath("app.quranreadinglive.com???" + PhotonNetwork.CurrentRoom.Name));        
+        shareSheet.AddURL(URLString.URLWithPath("quranreadinglive.vercel.app???" + PhotonNetwork.CurrentRoom.Name));        
         shareSheet.SetCompletionCallback((result, error) => {
             Debug.Log("Share Sheet was closed. Result code: " + result.ResultCode);
         });

@@ -15,7 +15,7 @@
 				<action android:name="android.intent.action.VIEW" />
 				<category android:name="android.intent.category.DEFAULT" />
 				<category android:name="android.intent.category.BROWSABLE" />
-				<data android:scheme="https" android:host="app.quranreadinglive.com" />
+				<data android:scheme="app" android:host="quranreadinglive.vercel.app" />
 			</intent-filter>
 			
             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
